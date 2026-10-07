@@ -1,0 +1,14 @@
+{
+  "program": "4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd",
+  "bytes": 333352,
+  "startedAt": "2026-10-03T11:47:18.175Z",
+  "balanceBefore": 1707008680,
+  "previousAllocation": 330256,
+  "additionalRent": 52019200,
+  "topupLamports": 44276880,
+  "topup": "{\n  \"signature\": \"2uU4mM8zCFdGXSRPXo3gSxgifxGFJZYy1uVATcmaLQqYyV48uiXfFFhbpzYKERsqcx1yR88nF31nBzjAoEQZ7eKu\"\n}\n",
+  "extensionBytes": 10240,
+  "bufferRemaining": 0,
+  "balanceAfter": 1751285560,
+  "cost": 0
+}

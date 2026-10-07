@@ -1,0 +1,3 @@
+Known local bottleneck: electronics=1, superconductors=9; passed
+
+cases=1206 matched=1206 different=0 rejected=0 directly_improvable=0 max_rate_delta_q24=5

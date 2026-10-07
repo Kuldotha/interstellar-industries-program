@@ -1,0 +1,21 @@
+PASS known local bottleneck: Electronics 1, Superconductors 9
+PASS upward finalizes preliminary ceiling: Electronics 1 -> 0.3333333134651184
+PASS stock only in upward: PDA 0 -> 1; Electronics stock drains 1/min, boundary 2 minutes; identical downward plan
+PASS after the depletion boundary: PDA stops when Electronics stock is empty
+PASS live production before stock: Electronics demand 2, live 1, stock draw 1/min; boundary 2 minutes
+PASS first supplier check: Technical Gear requests 1, not 3; total Fibres demand 2, Electronics demand 2
+
+Shared branches: upward changes (resource, recipe, before, after)
+55 48 1.000000 0.750000
+55 58 1.000000 0.250000
+50 33 1.000000 0.375000
+50 43 1.000000 0.375000
+21 33 0.375000 0.250000
+recipe downward_relevant preliminary_ceiling final baseline
+33 1 1 0.25 0.25
+43 1 1 0.375 0.5
+48 1 1 0.75 0.75
+58 1 1 0.25 0.25
+CONFIRMED FAILURE: Composite can consume the spare 0.125 Polymers and Carbon Strands; production can increase from 0.375 to 0.5 without reducing anything else.
+
+1000 generated whole-web cases: baseline_matches=102, differences=898, directly_improvable=539. All capacity/stock feasibility and visit-count checks passed.

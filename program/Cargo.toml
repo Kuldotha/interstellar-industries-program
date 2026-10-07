@@ -1,0 +1,26 @@
+[package]
+name = "production-lab-cu"
+version = "0.1.0"
+edition = "2021"
+[lib]
+crate-type = ["cdylib"]
+[profile.release]
+opt-level = 3
+lto = true
+panic = "abort"
+[dependencies]
+pinocchio = { version = "=0.11.2", default-features = false, features = ["alloc", "copy"] }
+solarium = { git = "https://github.com/sensorial-systems/solarium", rev = "85f77a6ac12ea26a65b5e950a0f463e898399939" }
+solarium-program = { git = "https://github.com/sensorial-systems/solarium", rev = "85f77a6ac12ea26a65b5e950a0f463e898399939", default-features = false, features = ["pinocchio"] }
+
+pinocchio-system = "=0.6.1"
+ephemeral-rollups-pinocchio = "=0.17.3"
+planet-generation-core = { path = "../planet-generation-core" }
+solana-sha256-hasher = { version = "=3.1.0", features = ["sha2"] }
+
+[features]
+default=["pinocchio"]
+pinocchio=[]
+no-entrypoint=[]
+cu-profile=["benchmark"]
+benchmark=[]

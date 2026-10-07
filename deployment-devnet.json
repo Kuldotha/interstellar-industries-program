@@ -1,0 +1,49 @@
+{
+  "network": "devnet",
+  "rpc": "https://rpc.magicblock.app/devnet",
+  "program": "4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd",
+  "admin": "7SMQSQ6hhyy1xwPsEoFNWdnGxfR3BYdb4VPkjUrzHU2s",
+  "buffer": "E5NEcxjtYmJWsQohASp1EyoMu5kFbRSbGjKmoAfCAnpz",
+  "source": "691aFvKMnHXrMSgqk6G8izoCbVZTmkrRcu8xCeMKfPh1",
+  "binaryBytes": 330256,
+  "programRent": 833120,
+  "dataRent": 1678579320,
+  "bufferRent": 1678538680,
+  "sourceBalanceBefore": 14596374013,
+  "adminReserve": 20000000,
+  "feeAllowance": 10000000,
+  "funding": 3387951120,
+  "transfer": "{\n  \"signature\": \"5KhBZyR1fPGFwCDJ3uQ9jyoa2F4pRCBbSrSXgToLUKpRQ8Q7y5TTSQwU4YRyvD9FknEb1Sk6eMhH7E2zmY8QXcNW\"\n}\n",
+  "startedAt": "2026-10-03T11:34:21.100Z",
+  "previousAttempts": [
+    {
+      "rpc": "https://api.devnet.solana.com",
+      "error": "Error: Solana command failed: program deploy (1)",
+      "cleanupError": "Error: Solana command failed: program close (1)",
+      "startedAt": "2026-10-03T11:27:03.157Z"
+    }
+  ],
+  "deploymentOutput": "{\n  \"programId\": \"4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd\",\n  \"signature\": \"5Lvv1DERQX2MttGmMwvw95jReCxFuD7GymufYKAwZKzA1JDSr96VXK2U6MamLAgqXnMugveeu3oNf8D4zf2Znb7w\"\n}\n",
+  "deployed": true,
+  "programData": "39Lw2dTnSBwP7B3tJretgGReABioLcqcSukMfCe3zdam",
+  "sha256": "5a96fb9efec3be9b2cde9c852ad4ca370c6a41a7141c124695fa4961570d58f4",
+  "verified": true,
+  "verifiedAt": "2026-10-03T11:34:29.102Z",
+  "bufferRemaining": 0,
+  "retainFundingOnAdmin": true,
+  "adminBalanceAfter": 1707008680,
+  "sourceBalanceAfter": 11208287893,
+  "netSourceDebit": 3388086120,
+  "fundingTransfers": [
+    {
+      "lamports": 3387951120,
+      "signature": "H6eAThK6dRBuMahqAhNBmpfnMu3EBViJSQboYEjMDH46YczL84WyLRbF7uADsUYEd13RRfLFg1rpq8fK32fNopV"
+    },
+    {
+      "lamports": 125000,
+      "signature": "5KhBZyR1fPGFwCDJ3uQ9jyoa2F4pRCBbSrSXgToLUKpRQ8Q7y5TTSQwU4YRyvD9FknEb1Sk6eMhH7E2zmY8QXcNW"
+    }
+  ],
+  "persistentRentLamports": 1679412440,
+  "totalFeesLamports": 1665000
+}

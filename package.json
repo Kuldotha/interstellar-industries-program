@@ -1,0 +1,25 @@
+{
+  "name": "production-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "vite build",
+    "engine": "node build.mjs",
+    "test": "node test.mjs && node stock-test.mjs && node caps-test.mjs && node consumption-test.mjs && node population-test.mjs && node program-test.mjs",
+    "profile": "node profile.mjs",
+    "test:program": "node program-test.mjs",
+    "test:caps": "node caps-test.mjs",
+    "test:consumption": "node consumption-test.mjs",
+    "test:population": "node population-test.mjs",
+    "test:onchain": "node build-onchain.mjs",
+    "test:client": "node client/test.mjs"
+  },
+  "devDependencies": {
+    "vite": "7.3.1"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "UNLICENSED"
+}

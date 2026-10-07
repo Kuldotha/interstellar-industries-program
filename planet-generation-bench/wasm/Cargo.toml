@@ -1,0 +1,13 @@
+[package]
+name="planet-generation-wasm-check"
+version="0.1.0"
+edition="2021"
+[lib]
+crate-type=["cdylib"]
+[dependencies]
+planet-generation-core={path="../../planet-generation-core"}
+libm="0.2"
+[profile.release]
+opt-level=3
+lto=true
+panic="abort"

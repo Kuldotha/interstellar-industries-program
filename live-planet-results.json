@@ -1,0 +1,18 @@
+{
+  "rpc": "https://devnet-eu.magicblock.app/",
+  "planet": "7XoYJVb7vDvgAuqdtMjgu9bQHBPVnRsWWAyF9MpAQbPY",
+  "sponsorBefore": 1984832,
+  "sessionBefore": 0,
+  "transactions": [
+    "zqLgVSHMk1gHbUbgnzsNEZf5eMzGUDY54z5U9maLu3Z2PAYuArg8kbh9QVKUYcjbyVhjf7HCVpr15xebTGaMLUf",
+    "2nW54fzipXXRxoQn46jD5JdSuwiMHXwdnTeRHsa21afBPQTvxqAM7nhxHeJ6zpQWkDAJNbvxEqpynUp3ELS6qLMX",
+    "tWWdgc73x9roMQg34VRCfbaJvCkHFmw1fACKfgWbjvd6i7j5K8dCR5sqif9fmyGWZzWPfXRtGS5nibTrXj55Trk"
+  ],
+  "sessionAfter": 0,
+  "passed": true,
+  "cleanup": "66tHFXk19vpnzgoD31yVwc1GisKhXvoyaqsiS1pawDZw8pfo5gptSdUp3wRHQR5HB4uDeuAnBBFxM6z1WXtGoVh2",
+  "planetClosed": true,
+  "engineClosed": true,
+  "sponsorAfter": 1984832,
+  "rentReturned": true
+}

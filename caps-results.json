@@ -1,0 +1,2713 @@
+{
+  "cases": 451,
+  "maxCu": 172503,
+  "wasmSbfExactMatch": true,
+  "measurements": [
+    {
+      "name": "fish replenishes half consumption",
+      "totalCu": 46825,
+      "metadataCu": 4543,
+      "solveCu": 41989
+    },
+    {
+      "name": "all stores full",
+      "totalCu": 122220,
+      "metadataCu": 16989,
+      "solveCu": 104938
+    },
+    {
+      "name": "zero buffer live throughput",
+      "totalCu": 47430,
+      "metadataCu": 4543,
+      "solveCu": 42594
+    },
+    {
+      "name": "full raw idle",
+      "totalCu": 46925,
+      "metadataCu": 4543,
+      "solveCu": 42089
+    },
+    {
+      "name": "full raw replenishment",
+      "totalCu": 47320,
+      "metadataCu": 4542,
+      "solveCu": 42485
+    },
+    {
+      "name": "fill boundary",
+      "totalCu": 47083,
+      "metadataCu": 4543,
+      "solveCu": 42247
+    },
+    {
+      "name": "full electronics frees copper for superconductors",
+      "totalCu": 55792,
+      "metadataCu": 17751,
+      "solveCu": 37748
+    },
+    {
+      "name": "full intermediate idle",
+      "totalCu": 54533,
+      "metadataCu": 17751,
+      "solveCu": 36489
+    },
+    {
+      "name": "full intermediate replenishment",
+      "totalCu": 55556,
+      "metadataCu": 17483,
+      "solveCu": 37780
+    },
+    {
+      "name": "full intermediate drains",
+      "totalCu": 43556,
+      "metadataCu": 5394,
+      "solveCu": 37869
+    },
+    {
+      "name": "incremental capped producer",
+      "totalCu": 35675,
+      "metadataCu": 5982,
+      "solveCu": 29400
+    },
+    {
+      "name": "full AR Headsets",
+      "totalCu": 149463,
+      "metadataCu": 17904,
+      "solveCu": 131266
+    },
+    {
+      "name": "full Advanced Polymers",
+      "totalCu": 150670,
+      "metadataCu": 17843,
+      "solveCu": 132534
+    },
+    {
+      "name": "full Algae",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Aluminum",
+      "totalCu": 150944,
+      "metadataCu": 17895,
+      "solveCu": 132756
+    },
+    {
+      "name": "full Bauxite",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Beer",
+      "totalCu": 149106,
+      "metadataCu": 17944,
+      "solveCu": 130869
+    },
+    {
+      "name": "full Biomass",
+      "totalCu": 82556,
+      "metadataCu": 4543,
+      "solveCu": 77720
+    },
+    {
+      "name": "full Cacao",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Carbon Fiber Mesh",
+      "totalCu": 156028,
+      "metadataCu": 17968,
+      "solveCu": 137767
+    },
+    {
+      "name": "full Carbon Nanotubes",
+      "totalCu": 151206,
+      "metadataCu": 17847,
+      "solveCu": 133066
+    },
+    {
+      "name": "full Carbon Strands",
+      "totalCu": 151423,
+      "metadataCu": 17933,
+      "solveCu": 133197
+    },
+    {
+      "name": "full Ceramic Composites",
+      "totalCu": 156618,
+      "metadataCu": 17992,
+      "solveCu": 138333
+    },
+    {
+      "name": "full Chocolate",
+      "totalCu": 149224,
+      "metadataCu": 18000,
+      "solveCu": 130931
+    },
+    {
+      "name": "full Coal",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Coffee",
+      "totalCu": 149250,
+      "metadataCu": 18016,
+      "solveCu": 130941
+    },
+    {
+      "name": "full Coffee Beans",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Concrete Blocks",
+      "totalCu": 149282,
+      "metadataCu": 18032,
+      "solveCu": 130957
+    },
+    {
+      "name": "full Copper",
+      "totalCu": 81091,
+      "metadataCu": 4543,
+      "solveCu": 76255
+    },
+    {
+      "name": "full Crude Oil",
+      "totalCu": 82216,
+      "metadataCu": 4543,
+      "solveCu": 77380
+    },
+    {
+      "name": "full Crystals",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Dried Spices",
+      "totalCu": 149637,
+      "metadataCu": 18053,
+      "solveCu": 131291
+    },
+    {
+      "name": "full Electronics",
+      "totalCu": 146391,
+      "metadataCu": 17751,
+      "solveCu": 128347
+    },
+    {
+      "name": "full Ergonomic Furniture",
+      "totalCu": 154811,
+      "metadataCu": 18080,
+      "solveCu": 136438
+    },
+    {
+      "name": "full Fish",
+      "totalCu": 81888,
+      "metadataCu": 4543,
+      "solveCu": 77052
+    },
+    {
+      "name": "full Fungi",
+      "totalCu": 82454,
+      "metadataCu": 4543,
+      "solveCu": 77618
+    },
+    {
+      "name": "full Gems",
+      "totalCu": 82888,
+      "metadataCu": 4543,
+      "solveCu": 78052
+    },
+    {
+      "name": "full Gold Ore",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Granules",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Grapes",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Graphite",
+      "totalCu": 84980,
+      "metadataCu": 4543,
+      "solveCu": 80144
+    },
+    {
+      "name": "full High-End Circuits",
+      "totalCu": 152328,
+      "metadataCu": 18074,
+      "solveCu": 133961
+    },
+    {
+      "name": "full High-Energy Capacitors",
+      "totalCu": 149652,
+      "metadataCu": 18072,
+      "solveCu": 131287
+    },
+    {
+      "name": "full Hover Engines",
+      "totalCu": 149665,
+      "metadataCu": 17914,
+      "solveCu": 131458
+    },
+    {
+      "name": "full Hovercars",
+      "totalCu": 156109,
+      "metadataCu": 18168,
+      "solveCu": 137648
+    },
+    {
+      "name": "full Insects",
+      "totalCu": 81958,
+      "metadataCu": 4543,
+      "solveCu": 77122
+    },
+    {
+      "name": "full Iron",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Lenses",
+      "totalCu": 150012,
+      "metadataCu": 18181,
+      "solveCu": 131538
+    },
+    {
+      "name": "full Livestock",
+      "totalCu": 146458,
+      "metadataCu": 18029,
+      "solveCu": 128136
+    },
+    {
+      "name": "full Luxury Jewelry",
+      "totalCu": 154435,
+      "metadataCu": 18208,
+      "solveCu": 135934
+    },
+    {
+      "name": "full Meat",
+      "totalCu": 148834,
+      "metadataCu": 18216,
+      "solveCu": 130325
+    },
+    {
+      "name": "full Medical Supplies",
+      "totalCu": 155516,
+      "metadataCu": 18224,
+      "solveCu": 136999
+    },
+    {
+      "name": "full Medicinal Plants",
+      "totalCu": 82807,
+      "metadataCu": 4543,
+      "solveCu": 77971
+    },
+    {
+      "name": "full Nano-Repair Bots",
+      "totalCu": 154487,
+      "metadataCu": 18240,
+      "solveCu": 135954
+    },
+    {
+      "name": "full Nano-Tech",
+      "totalCu": 148872,
+      "metadataCu": 17984,
+      "solveCu": 130595
+    },
+    {
+      "name": "full Nanoweave Suits",
+      "totalCu": 156705,
+      "metadataCu": 18256,
+      "solveCu": 138156
+    },
+    {
+      "name": "full Nutrition Bars",
+      "totalCu": 149363,
+      "metadataCu": 18264,
+      "solveCu": 130806
+    },
+    {
+      "name": "full PDAs",
+      "totalCu": 152041,
+      "metadataCu": 18272,
+      "solveCu": 133476
+    },
+    {
+      "name": "full Pharmaceutics",
+      "totalCu": 154830,
+      "metadataCu": 18280,
+      "solveCu": 136257
+    },
+    {
+      "name": "full Plant Gum",
+      "totalCu": 82249,
+      "metadataCu": 4543,
+      "solveCu": 77413
+    },
+    {
+      "name": "full Plasma Coils",
+      "totalCu": 147873,
+      "metadataCu": 18208,
+      "solveCu": 129372
+    },
+    {
+      "name": "full Polymers",
+      "totalCu": 149695,
+      "metadataCu": 18031,
+      "solveCu": 131371
+    },
+    {
+      "name": "full Pure Gold",
+      "totalCu": 150055,
+      "metadataCu": 18279,
+      "solveCu": 131483
+    },
+    {
+      "name": "full Rare Earth Metals",
+      "totalCu": 82427,
+      "metadataCu": 4543,
+      "solveCu": 77591
+    },
+    {
+      "name": "full Raw Silk",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Reinforced Padding",
+      "totalCu": 155310,
+      "metadataCu": 18336,
+      "solveCu": 136681
+    },
+    {
+      "name": "full Rough Fibers",
+      "totalCu": 83578,
+      "metadataCu": 4543,
+      "solveCu": 78742
+    },
+    {
+      "name": "full Silicates",
+      "totalCu": 84294,
+      "metadataCu": 4543,
+      "solveCu": 79458
+    },
+    {
+      "name": "full Silk",
+      "totalCu": 150310,
+      "metadataCu": 18349,
+      "solveCu": 131668
+    },
+    {
+      "name": "full Soybeans",
+      "totalCu": 81721,
+      "metadataCu": 4543,
+      "solveCu": 76885
+    },
+    {
+      "name": "full Spare Parts",
+      "totalCu": 152188,
+      "metadataCu": 18376,
+      "solveCu": 133519
+    },
+    {
+      "name": "full Spiced Vegetables",
+      "totalCu": 149992,
+      "metadataCu": 18384,
+      "solveCu": 131315
+    },
+    {
+      "name": "full Spices",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Steel",
+      "totalCu": 151765,
+      "metadataCu": 18378,
+      "solveCu": 133094
+    },
+    {
+      "name": "full Steel Plates",
+      "totalCu": 151371,
+      "metadataCu": 18367,
+      "solveCu": 132711
+    },
+    {
+      "name": "full Sugar",
+      "totalCu": 150341,
+      "metadataCu": 18405,
+      "solveCu": 131643
+    },
+    {
+      "name": "full Superconductors",
+      "totalCu": 148104,
+      "metadataCu": 18358,
+      "solveCu": 129453
+    },
+    {
+      "name": "full Sweet Plants",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Tea",
+      "totalCu": 150098,
+      "metadataCu": 18440,
+      "solveCu": 131365
+    },
+    {
+      "name": "full Tea Leaves",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Technical Gear",
+      "totalCu": 151877,
+      "metadataCu": 18456,
+      "solveCu": 133128
+    },
+    {
+      "name": "full Titanium Alloys",
+      "totalCu": 156378,
+      "metadataCu": 18464,
+      "solveCu": 137621
+    },
+    {
+      "name": "full Titanium Ore",
+      "totalCu": 82888,
+      "metadataCu": 4543,
+      "solveCu": 78052
+    },
+    {
+      "name": "full Tobacco Leaves",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Tobacco Products",
+      "totalCu": 150194,
+      "metadataCu": 18488,
+      "solveCu": 131413
+    },
+    {
+      "name": "full Tofu",
+      "totalCu": 149680,
+      "metadataCu": 18496,
+      "solveCu": 130891
+    },
+    {
+      "name": "full Tubers",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Vegetables",
+      "totalCu": 82880,
+      "metadataCu": 4543,
+      "solveCu": 78044
+    },
+    {
+      "name": "full Vitamins",
+      "totalCu": 150258,
+      "metadataCu": 18520,
+      "solveCu": 131445
+    },
+    {
+      "name": "full Wine",
+      "totalCu": 150274,
+      "metadataCu": 18528,
+      "solveCu": 131453
+    },
+    {
+      "name": "full Worker Clothes",
+      "totalCu": 155942,
+      "metadataCu": 18536,
+      "solveCu": 137113
+    },
+    {
+      "name": "mixed 0",
+      "totalCu": 115495,
+      "metadataCu": 17610,
+      "solveCu": 97592
+    },
+    {
+      "name": "mixed build 0",
+      "totalCu": 68722,
+      "metadataCu": 6174,
+      "solveCu": 62255
+    },
+    {
+      "name": "workforce 0",
+      "totalCu": 130577,
+      "metadataCu": 8500,
+      "solveCu": 121784
+    },
+    {
+      "name": "mixed 1",
+      "totalCu": 131232,
+      "metadataCu": 17573,
+      "solveCu": 113366
+    },
+    {
+      "name": "mixed build 1",
+      "totalCu": 37515,
+      "metadataCu": 6159,
+      "solveCu": 31063
+    },
+    {
+      "name": "workforce 1",
+      "totalCu": 145417,
+      "metadataCu": 8504,
+      "solveCu": 136620
+    },
+    {
+      "name": "mixed 2",
+      "totalCu": 120021,
+      "metadataCu": 17844,
+      "solveCu": 101884
+    },
+    {
+      "name": "mixed build 2",
+      "totalCu": 75948,
+      "metadataCu": 6049,
+      "solveCu": 69606
+    },
+    {
+      "name": "workforce 2",
+      "totalCu": 135578,
+      "metadataCu": 8366,
+      "solveCu": 126919
+    },
+    {
+      "name": "mixed 3",
+      "totalCu": 127792,
+      "metadataCu": 17034,
+      "solveCu": 110465
+    },
+    {
+      "name": "mixed build 3",
+      "totalCu": 82580,
+      "metadataCu": 6101,
+      "solveCu": 76186
+    },
+    {
+      "name": "workforce 3",
+      "totalCu": 145668,
+      "metadataCu": 8454,
+      "solveCu": 136921
+    },
+    {
+      "name": "mixed 4",
+      "totalCu": 117610,
+      "metadataCu": 17671,
+      "solveCu": 99646
+    },
+    {
+      "name": "mixed build 4",
+      "totalCu": 73766,
+      "metadataCu": 6154,
+      "solveCu": 67319
+    },
+    {
+      "name": "workforce 4",
+      "totalCu": 128035,
+      "metadataCu": 8471,
+      "solveCu": 119271
+    },
+    {
+      "name": "mixed 5",
+      "totalCu": 129844,
+      "metadataCu": 17572,
+      "solveCu": 111979
+    },
+    {
+      "name": "mixed build 5",
+      "totalCu": 75404,
+      "metadataCu": 6148,
+      "solveCu": 68963
+    },
+    {
+      "name": "workforce 5",
+      "totalCu": 139872,
+      "metadataCu": 8528,
+      "solveCu": 131051
+    },
+    {
+      "name": "mixed 6",
+      "totalCu": 116264,
+      "metadataCu": 17848,
+      "solveCu": 98123
+    },
+    {
+      "name": "mixed build 6",
+      "totalCu": 73428,
+      "metadataCu": 6104,
+      "solveCu": 67031
+    },
+    {
+      "name": "workforce 6",
+      "totalCu": 124051,
+      "metadataCu": 8412,
+      "solveCu": 115346
+    },
+    {
+      "name": "mixed 7",
+      "totalCu": 128489,
+      "metadataCu": 17759,
+      "solveCu": 110437
+    },
+    {
+      "name": "mixed build 7",
+      "totalCu": 85847,
+      "metadataCu": 6054,
+      "solveCu": 79500
+    },
+    {
+      "name": "workforce 7",
+      "totalCu": 136394,
+      "metadataCu": 8425,
+      "solveCu": 127676
+    },
+    {
+      "name": "mixed 8",
+      "totalCu": 114714,
+      "metadataCu": 17690,
+      "solveCu": 96731
+    },
+    {
+      "name": "mixed build 8",
+      "totalCu": 13321,
+      "metadataCu": 6165,
+      "solveCu": 6863
+    },
+    {
+      "name": "workforce 8",
+      "totalCu": 130589,
+      "metadataCu": 8439,
+      "solveCu": 121857
+    },
+    {
+      "name": "mixed 9",
+      "totalCu": 124968,
+      "metadataCu": 17468,
+      "solveCu": 107207
+    },
+    {
+      "name": "mixed build 9",
+      "totalCu": 13104,
+      "metadataCu": 6087,
+      "solveCu": 6724
+    },
+    {
+      "name": "workforce 9",
+      "totalCu": 139116,
+      "metadataCu": 8401,
+      "solveCu": 130422
+    },
+    {
+      "name": "mixed 10",
+      "totalCu": 129446,
+      "metadataCu": 17982,
+      "solveCu": 111171
+    },
+    {
+      "name": "mixed build 10",
+      "totalCu": 13215,
+      "metadataCu": 6160,
+      "solveCu": 6762
+    },
+    {
+      "name": "workforce 10",
+      "totalCu": 144089,
+      "metadataCu": 8456,
+      "solveCu": 135340
+    },
+    {
+      "name": "mixed 11",
+      "totalCu": 127391,
+      "metadataCu": 17647,
+      "solveCu": 109451
+    },
+    {
+      "name": "mixed build 11",
+      "totalCu": 78820,
+      "metadataCu": 6192,
+      "solveCu": 72335
+    },
+    {
+      "name": "workforce 11",
+      "totalCu": 143593,
+      "metadataCu": 8470,
+      "solveCu": 134830
+    },
+    {
+      "name": "mixed 12",
+      "totalCu": 130382,
+      "metadataCu": 17810,
+      "solveCu": 112279
+    },
+    {
+      "name": "mixed build 12",
+      "totalCu": 13025,
+      "metadataCu": 6076,
+      "solveCu": 6656
+    },
+    {
+      "name": "workforce 12",
+      "totalCu": 150862,
+      "metadataCu": 8342,
+      "solveCu": 142227
+    },
+    {
+      "name": "mixed 13",
+      "totalCu": 121317,
+      "metadataCu": 17528,
+      "solveCu": 103496
+    },
+    {
+      "name": "mixed build 13",
+      "totalCu": 32734,
+      "metadataCu": 6043,
+      "solveCu": 26398
+    },
+    {
+      "name": "workforce 13",
+      "totalCu": 135311,
+      "metadataCu": 8365,
+      "solveCu": 126653
+    },
+    {
+      "name": "mixed 14",
+      "totalCu": 117606,
+      "metadataCu": 17369,
+      "solveCu": 99944
+    },
+    {
+      "name": "mixed build 14",
+      "totalCu": 12947,
+      "metadataCu": 6107,
+      "solveCu": 6547
+    },
+    {
+      "name": "workforce 14",
+      "totalCu": 126600,
+      "metadataCu": 8395,
+      "solveCu": 117912
+    },
+    {
+      "name": "mixed 15",
+      "totalCu": 125940,
+      "metadataCu": 17415,
+      "solveCu": 108232
+    },
+    {
+      "name": "mixed build 15",
+      "totalCu": 12306,
+      "metadataCu": 6020,
+      "solveCu": 5993
+    },
+    {
+      "name": "workforce 15",
+      "totalCu": 138477,
+      "metadataCu": 8387,
+      "solveCu": 129797
+    },
+    {
+      "name": "mixed 16",
+      "totalCu": 110864,
+      "metadataCu": 17510,
+      "solveCu": 93061
+    },
+    {
+      "name": "mixed build 16",
+      "totalCu": 67594,
+      "metadataCu": 6034,
+      "solveCu": 61267
+    },
+    {
+      "name": "workforce 16",
+      "totalCu": 118921,
+      "metadataCu": 8324,
+      "solveCu": 110304
+    },
+    {
+      "name": "mixed 17",
+      "totalCu": 141460,
+      "metadataCu": 16828,
+      "solveCu": 124339
+    },
+    {
+      "name": "mixed build 17",
+      "totalCu": 14849,
+      "metadataCu": 6102,
+      "solveCu": 8454
+    },
+    {
+      "name": "workforce 17",
+      "totalCu": 151426,
+      "metadataCu": 8469,
+      "solveCu": 142664
+    },
+    {
+      "name": "mixed 18",
+      "totalCu": 129768,
+      "metadataCu": 17358,
+      "solveCu": 112117
+    },
+    {
+      "name": "mixed build 18",
+      "totalCu": 36440,
+      "metadataCu": 6156,
+      "solveCu": 29991
+    },
+    {
+      "name": "workforce 18",
+      "totalCu": 144898,
+      "metadataCu": 8487,
+      "solveCu": 136118
+    },
+    {
+      "name": "mixed 19",
+      "totalCu": 134059,
+      "metadataCu": 17945,
+      "solveCu": 115821
+    },
+    {
+      "name": "mixed build 19",
+      "totalCu": 77228,
+      "metadataCu": 6160,
+      "solveCu": 70775
+    },
+    {
+      "name": "workforce 19",
+      "totalCu": 138728,
+      "metadataCu": 8522,
+      "solveCu": 129913
+    },
+    {
+      "name": "mixed 20",
+      "totalCu": 122427,
+      "metadataCu": 17126,
+      "solveCu": 105008
+    },
+    {
+      "name": "mixed build 20",
+      "totalCu": 76151,
+      "metadataCu": 6231,
+      "solveCu": 69627
+    },
+    {
+      "name": "workforce 20",
+      "totalCu": 135907,
+      "metadataCu": 8575,
+      "solveCu": 127039
+    },
+    {
+      "name": "mixed 21",
+      "totalCu": 139093,
+      "metadataCu": 17979,
+      "solveCu": 120821
+    },
+    {
+      "name": "mixed build 21",
+      "totalCu": 82882,
+      "metadataCu": 6151,
+      "solveCu": 76438
+    },
+    {
+      "name": "workforce 21",
+      "totalCu": 150199,
+      "metadataCu": 8484,
+      "solveCu": 141422
+    },
+    {
+      "name": "mixed 22",
+      "totalCu": 134745,
+      "metadataCu": 17281,
+      "solveCu": 117171
+    },
+    {
+      "name": "mixed build 22",
+      "totalCu": 75200,
+      "metadataCu": 6128,
+      "solveCu": 68779
+    },
+    {
+      "name": "workforce 22",
+      "totalCu": 151539,
+      "metadataCu": 8499,
+      "solveCu": 142747
+    },
+    {
+      "name": "mixed 23",
+      "totalCu": 133694,
+      "metadataCu": 17577,
+      "solveCu": 115824
+    },
+    {
+      "name": "mixed build 23",
+      "totalCu": 84284,
+      "metadataCu": 6008,
+      "solveCu": 77983
+    },
+    {
+      "name": "workforce 23",
+      "totalCu": 141753,
+      "metadataCu": 8352,
+      "solveCu": 133108
+    },
+    {
+      "name": "mixed 24",
+      "totalCu": 131187,
+      "metadataCu": 17200,
+      "solveCu": 113694
+    },
+    {
+      "name": "mixed build 24",
+      "totalCu": 84503,
+      "metadataCu": 6041,
+      "solveCu": 78169
+    },
+    {
+      "name": "workforce 24",
+      "totalCu": 147919,
+      "metadataCu": 8403,
+      "solveCu": 139223
+    },
+    {
+      "name": "mixed 25",
+      "totalCu": 137088,
+      "metadataCu": 17133,
+      "solveCu": 119662
+    },
+    {
+      "name": "mixed build 25",
+      "totalCu": 81804,
+      "metadataCu": 6170,
+      "solveCu": 75341
+    },
+    {
+      "name": "workforce 25",
+      "totalCu": 146657,
+      "metadataCu": 8577,
+      "solveCu": 137787
+    },
+    {
+      "name": "mixed 26",
+      "totalCu": 136765,
+      "metadataCu": 17762,
+      "solveCu": 118710
+    },
+    {
+      "name": "mixed build 26",
+      "totalCu": 73960,
+      "metadataCu": 6052,
+      "solveCu": 67615
+    },
+    {
+      "name": "workforce 26",
+      "totalCu": 151095,
+      "metadataCu": 8387,
+      "solveCu": 142415
+    },
+    {
+      "name": "mixed 27",
+      "totalCu": 112592,
+      "metadataCu": 17727,
+      "solveCu": 94572
+    },
+    {
+      "name": "mixed build 27",
+      "totalCu": 66737,
+      "metadataCu": 6000,
+      "solveCu": 60444
+    },
+    {
+      "name": "workforce 27",
+      "totalCu": 69058,
+      "metadataCu": 8290,
+      "solveCu": 60475
+    },
+    {
+      "name": "mixed 28",
+      "totalCu": 116752,
+      "metadataCu": 17571,
+      "solveCu": 98888
+    },
+    {
+      "name": "mixed build 28",
+      "totalCu": 67771,
+      "metadataCu": 5996,
+      "solveCu": 61482
+    },
+    {
+      "name": "workforce 28",
+      "totalCu": 127649,
+      "metadataCu": 8358,
+      "solveCu": 118998
+    },
+    {
+      "name": "mixed 29",
+      "totalCu": 128531,
+      "metadataCu": 17328,
+      "solveCu": 110910
+    },
+    {
+      "name": "mixed build 29",
+      "totalCu": 11587,
+      "metadataCu": 6126,
+      "solveCu": 5168
+    },
+    {
+      "name": "workforce 29",
+      "totalCu": 136618,
+      "metadataCu": 8460,
+      "solveCu": 127865
+    },
+    {
+      "name": "mixed 30",
+      "totalCu": 117001,
+      "metadataCu": 17416,
+      "solveCu": 99292
+    },
+    {
+      "name": "mixed build 30",
+      "totalCu": 13092,
+      "metadataCu": 6118,
+      "solveCu": 6681
+    },
+    {
+      "name": "workforce 30",
+      "totalCu": 125367,
+      "metadataCu": 8416,
+      "solveCu": 116658
+    },
+    {
+      "name": "mixed 31",
+      "totalCu": 126313,
+      "metadataCu": 17772,
+      "solveCu": 108248
+    },
+    {
+      "name": "mixed build 31",
+      "totalCu": 32553,
+      "metadataCu": 6035,
+      "solveCu": 26225
+    },
+    {
+      "name": "workforce 31",
+      "totalCu": 136689,
+      "metadataCu": 8433,
+      "solveCu": 127963
+    },
+    {
+      "name": "mixed 32",
+      "totalCu": 135166,
+      "metadataCu": 17385,
+      "solveCu": 117488
+    },
+    {
+      "name": "mixed build 32",
+      "totalCu": 90855,
+      "metadataCu": 6091,
+      "solveCu": 84471
+    },
+    {
+      "name": "workforce 32",
+      "totalCu": 149534,
+      "metadataCu": 8480,
+      "solveCu": 140761
+    },
+    {
+      "name": "mixed 33",
+      "totalCu": 124920,
+      "metadataCu": 17979,
+      "solveCu": 106648
+    },
+    {
+      "name": "mixed build 33",
+      "totalCu": 35401,
+      "metadataCu": 6181,
+      "solveCu": 28927
+    },
+    {
+      "name": "workforce 33",
+      "totalCu": 144072,
+      "metadataCu": 8534,
+      "solveCu": 135245
+    },
+    {
+      "name": "mixed 34",
+      "totalCu": 139829,
+      "metadataCu": 17683,
+      "solveCu": 121853
+    },
+    {
+      "name": "mixed build 34",
+      "totalCu": 14025,
+      "metadataCu": 6120,
+      "solveCu": 7612
+    },
+    {
+      "name": "workforce 34",
+      "totalCu": 150513,
+      "metadataCu": 8470,
+      "solveCu": 141750
+    },
+    {
+      "name": "mixed 35",
+      "totalCu": 116420,
+      "metadataCu": 17494,
+      "solveCu": 98633
+    },
+    {
+      "name": "mixed build 35",
+      "totalCu": 70327,
+      "metadataCu": 6135,
+      "solveCu": 63899
+    },
+    {
+      "name": "workforce 35",
+      "totalCu": 132855,
+      "metadataCu": 8470,
+      "solveCu": 124092
+    },
+    {
+      "name": "mixed 36",
+      "totalCu": 144960,
+      "metadataCu": 17138,
+      "solveCu": 127529
+    },
+    {
+      "name": "mixed build 36",
+      "totalCu": 97449,
+      "metadataCu": 6046,
+      "solveCu": 91110
+    },
+    {
+      "name": "workforce 36",
+      "totalCu": 172503,
+      "metadataCu": 8435,
+      "solveCu": 163775
+    },
+    {
+      "name": "mixed 37",
+      "totalCu": 140201,
+      "metadataCu": 17876,
+      "solveCu": 122032
+    },
+    {
+      "name": "mixed build 37",
+      "totalCu": 13496,
+      "metadataCu": 6181,
+      "solveCu": 7022
+    },
+    {
+      "name": "workforce 37",
+      "totalCu": 153656,
+      "metadataCu": 8582,
+      "solveCu": 144781
+    },
+    {
+      "name": "mixed 38",
+      "totalCu": 135192,
+      "metadataCu": 17710,
+      "solveCu": 117189
+    },
+    {
+      "name": "mixed build 38",
+      "totalCu": 84909,
+      "metadataCu": 5938,
+      "solveCu": 78678
+    },
+    {
+      "name": "workforce 38",
+      "totalCu": 144609,
+      "metadataCu": 8291,
+      "solveCu": 136025
+    },
+    {
+      "name": "mixed 39",
+      "totalCu": 137715,
+      "metadataCu": 17582,
+      "solveCu": 119840
+    },
+    {
+      "name": "mixed build 39",
+      "totalCu": 13573,
+      "metadataCu": 6029,
+      "solveCu": 7251
+    },
+    {
+      "name": "workforce 39",
+      "totalCu": 153005,
+      "metadataCu": 8349,
+      "solveCu": 144363
+    },
+    {
+      "name": "mixed 40",
+      "totalCu": 135103,
+      "metadataCu": 17751,
+      "solveCu": 117059
+    },
+    {
+      "name": "mixed build 40",
+      "totalCu": 13605,
+      "metadataCu": 6097,
+      "solveCu": 7215
+    },
+    {
+      "name": "workforce 40",
+      "totalCu": 147838,
+      "metadataCu": 8386,
+      "solveCu": 139159
+    },
+    {
+      "name": "mixed 41",
+      "totalCu": 130880,
+      "metadataCu": 17773,
+      "solveCu": 112814
+    },
+    {
+      "name": "mixed build 41",
+      "totalCu": 80966,
+      "metadataCu": 6073,
+      "solveCu": 74600
+    },
+    {
+      "name": "workforce 41",
+      "totalCu": 145390,
+      "metadataCu": 8453,
+      "solveCu": 136644
+    },
+    {
+      "name": "mixed 42",
+      "totalCu": 132575,
+      "metadataCu": 18009,
+      "solveCu": 114273
+    },
+    {
+      "name": "mixed build 42",
+      "totalCu": 87506,
+      "metadataCu": 6103,
+      "solveCu": 81110
+    },
+    {
+      "name": "workforce 42",
+      "totalCu": 149180,
+      "metadataCu": 8483,
+      "solveCu": 140404
+    },
+    {
+      "name": "mixed 43",
+      "totalCu": 129403,
+      "metadataCu": 17362,
+      "solveCu": 111748
+    },
+    {
+      "name": "mixed build 43",
+      "totalCu": 74700,
+      "metadataCu": 6178,
+      "solveCu": 68229
+    },
+    {
+      "name": "workforce 43",
+      "totalCu": 138360,
+      "metadataCu": 8522,
+      "solveCu": 129545
+    },
+    {
+      "name": "mixed 44",
+      "totalCu": 122536,
+      "metadataCu": 17541,
+      "solveCu": 104702
+    },
+    {
+      "name": "mixed build 44",
+      "totalCu": 13692,
+      "metadataCu": 6151,
+      "solveCu": 7248
+    },
+    {
+      "name": "workforce 44",
+      "totalCu": 129807,
+      "metadataCu": 8494,
+      "solveCu": 121020
+    },
+    {
+      "name": "mixed 45",
+      "totalCu": 138148,
+      "metadataCu": 17263,
+      "solveCu": 120592
+    },
+    {
+      "name": "mixed build 45",
+      "totalCu": 33645,
+      "metadataCu": 6129,
+      "solveCu": 27223
+    },
+    {
+      "name": "workforce 45",
+      "totalCu": 150045,
+      "metadataCu": 8469,
+      "solveCu": 141283
+    },
+    {
+      "name": "mixed 46",
+      "totalCu": 137007,
+      "metadataCu": 17505,
+      "solveCu": 119209
+    },
+    {
+      "name": "mixed build 46",
+      "totalCu": 87790,
+      "metadataCu": 6196,
+      "solveCu": 81301
+    },
+    {
+      "name": "workforce 46",
+      "totalCu": 155246,
+      "metadataCu": 8576,
+      "solveCu": 146377
+    },
+    {
+      "name": "mixed 47",
+      "totalCu": 127532,
+      "metadataCu": 17019,
+      "solveCu": 110220
+    },
+    {
+      "name": "mixed build 47",
+      "totalCu": 79124,
+      "metadataCu": 6234,
+      "solveCu": 72597
+    },
+    {
+      "name": "workforce 47",
+      "totalCu": 137401,
+      "metadataCu": 8623,
+      "solveCu": 128485
+    },
+    {
+      "name": "mixed 48",
+      "totalCu": 127811,
+      "metadataCu": 17936,
+      "solveCu": 109582
+    },
+    {
+      "name": "mixed build 48",
+      "totalCu": 77203,
+      "metadataCu": 6149,
+      "solveCu": 70761
+    },
+    {
+      "name": "workforce 48",
+      "totalCu": 132627,
+      "metadataCu": 8520,
+      "solveCu": 123814
+    },
+    {
+      "name": "mixed 49",
+      "totalCu": 135504,
+      "metadataCu": 18137,
+      "solveCu": 117074
+    },
+    {
+      "name": "mixed build 49",
+      "totalCu": 79666,
+      "metadataCu": 6146,
+      "solveCu": 73227
+    },
+    {
+      "name": "workforce 49",
+      "totalCu": 146176,
+      "metadataCu": 8544,
+      "solveCu": 137339
+    },
+    {
+      "name": "mixed 50",
+      "totalCu": 121721,
+      "metadataCu": 17666,
+      "solveCu": 103762
+    },
+    {
+      "name": "mixed build 50",
+      "totalCu": 75758,
+      "metadataCu": 6155,
+      "solveCu": 69310
+    },
+    {
+      "name": "workforce 50",
+      "totalCu": 137751,
+      "metadataCu": 8481,
+      "solveCu": 128977
+    },
+    {
+      "name": "mixed 51",
+      "totalCu": 130397,
+      "metadataCu": 17619,
+      "solveCu": 112485
+    },
+    {
+      "name": "mixed build 51",
+      "totalCu": 32955,
+      "metadataCu": 6054,
+      "solveCu": 26608
+    },
+    {
+      "name": "workforce 51",
+      "totalCu": 139964,
+      "metadataCu": 8343,
+      "solveCu": 131328
+    },
+    {
+      "name": "mixed 52",
+      "totalCu": 124454,
+      "metadataCu": 17633,
+      "solveCu": 106528
+    },
+    {
+      "name": "mixed build 52",
+      "totalCu": 12880,
+      "metadataCu": 6080,
+      "solveCu": 6507
+    },
+    {
+      "name": "workforce 52",
+      "totalCu": 135394,
+      "metadataCu": 8311,
+      "solveCu": 126790
+    },
+    {
+      "name": "mixed 53",
+      "totalCu": 125308,
+      "metadataCu": 17489,
+      "solveCu": 107526
+    },
+    {
+      "name": "mixed build 53",
+      "totalCu": 34374,
+      "metadataCu": 6110,
+      "solveCu": 27971
+    },
+    {
+      "name": "workforce 53",
+      "totalCu": 136142,
+      "metadataCu": 8445,
+      "solveCu": 127404
+    },
+    {
+      "name": "mixed 54",
+      "totalCu": 118389,
+      "metadataCu": 17480,
+      "solveCu": 100616
+    },
+    {
+      "name": "mixed build 54",
+      "totalCu": 32610,
+      "metadataCu": 6143,
+      "solveCu": 26174
+    },
+    {
+      "name": "workforce 54",
+      "totalCu": 127066,
+      "metadataCu": 8432,
+      "solveCu": 118341
+    },
+    {
+      "name": "mixed 55",
+      "totalCu": 128203,
+      "metadataCu": 18007,
+      "solveCu": 109903
+    },
+    {
+      "name": "mixed build 55",
+      "totalCu": 76713,
+      "metadataCu": 6035,
+      "solveCu": 70385
+    },
+    {
+      "name": "workforce 55",
+      "totalCu": 141519,
+      "metadataCu": 8406,
+      "solveCu": 132820
+    },
+    {
+      "name": "mixed 56",
+      "totalCu": 134370,
+      "metadataCu": 17853,
+      "solveCu": 116224
+    },
+    {
+      "name": "mixed build 56",
+      "totalCu": 13592,
+      "metadataCu": 6075,
+      "solveCu": 7224
+    },
+    {
+      "name": "workforce 56",
+      "totalCu": 144396,
+      "metadataCu": 8405,
+      "solveCu": 135698
+    },
+    {
+      "name": "mixed 57",
+      "totalCu": 125783,
+      "metadataCu": 17883,
+      "solveCu": 107607
+    },
+    {
+      "name": "mixed build 57",
+      "totalCu": 33610,
+      "metadataCu": 6165,
+      "solveCu": 27152
+    },
+    {
+      "name": "workforce 57",
+      "totalCu": 137415,
+      "metadataCu": 8478,
+      "solveCu": 128644
+    },
+    {
+      "name": "mixed 58",
+      "totalCu": 139512,
+      "metadataCu": 17447,
+      "solveCu": 121772
+    },
+    {
+      "name": "mixed build 58",
+      "totalCu": 90373,
+      "metadataCu": 6137,
+      "solveCu": 83943
+    },
+    {
+      "name": "workforce 58",
+      "totalCu": 150095,
+      "metadataCu": 8517,
+      "solveCu": 141285
+    },
+    {
+      "name": "mixed 59",
+      "totalCu": 115423,
+      "metadataCu": 17258,
+      "solveCu": 97872
+    },
+    {
+      "name": "mixed build 59",
+      "totalCu": 73444,
+      "metadataCu": 6057,
+      "solveCu": 67094
+    },
+    {
+      "name": "workforce 59",
+      "totalCu": 123338,
+      "metadataCu": 8320,
+      "solveCu": 114725
+    },
+    {
+      "name": "mixed 60",
+      "totalCu": 126546,
+      "metadataCu": 17566,
+      "solveCu": 108687
+    },
+    {
+      "name": "mixed build 60",
+      "totalCu": 73450,
+      "metadataCu": 5958,
+      "solveCu": 67199
+    },
+    {
+      "name": "workforce 60",
+      "totalCu": 139447,
+      "metadataCu": 8338,
+      "solveCu": 130816
+    },
+    {
+      "name": "mixed 61",
+      "totalCu": 137077,
+      "metadataCu": 17775,
+      "solveCu": 119009
+    },
+    {
+      "name": "mixed build 61",
+      "totalCu": 84882,
+      "metadataCu": 6004,
+      "solveCu": 78585
+    },
+    {
+      "name": "workforce 61",
+      "totalCu": 150715,
+      "metadataCu": 8357,
+      "solveCu": 142065
+    },
+    {
+      "name": "mixed 62",
+      "totalCu": 125160,
+      "metadataCu": 17112,
+      "solveCu": 107755
+    },
+    {
+      "name": "mixed build 62",
+      "totalCu": 12598,
+      "metadataCu": 6056,
+      "solveCu": 6249
+    },
+    {
+      "name": "workforce 62",
+      "totalCu": 139530,
+      "metadataCu": 8376,
+      "solveCu": 130861
+    },
+    {
+      "name": "mixed 63",
+      "totalCu": 135999,
+      "metadataCu": 17717,
+      "solveCu": 117989
+    },
+    {
+      "name": "mixed build 63",
+      "totalCu": 13308,
+      "metadataCu": 6172,
+      "solveCu": 6843
+    },
+    {
+      "name": "workforce 63",
+      "totalCu": 148850,
+      "metadataCu": 8459,
+      "solveCu": 140098
+    },
+    {
+      "name": "mixed 64",
+      "totalCu": 137920,
+      "metadataCu": 17417,
+      "solveCu": 120210
+    },
+    {
+      "name": "mixed build 64",
+      "totalCu": 35211,
+      "metadataCu": 6130,
+      "solveCu": 28788
+    },
+    {
+      "name": "workforce 64",
+      "totalCu": 148173,
+      "metadataCu": 8479,
+      "solveCu": 139401
+    },
+    {
+      "name": "mixed 65",
+      "totalCu": 139845,
+      "metadataCu": 17767,
+      "solveCu": 121785
+    },
+    {
+      "name": "mixed build 65",
+      "totalCu": 12147,
+      "metadataCu": 6053,
+      "solveCu": 5801
+    },
+    {
+      "name": "workforce 65",
+      "totalCu": 154573,
+      "metadataCu": 8387,
+      "solveCu": 145893
+    },
+    {
+      "name": "mixed 66",
+      "totalCu": 130297,
+      "metadataCu": 17135,
+      "solveCu": 112869
+    },
+    {
+      "name": "mixed build 66",
+      "totalCu": 76019,
+      "metadataCu": 6113,
+      "solveCu": 69613
+    },
+    {
+      "name": "workforce 66",
+      "totalCu": 138380,
+      "metadataCu": 8412,
+      "solveCu": 129675
+    },
+    {
+      "name": "mixed 67",
+      "totalCu": 128900,
+      "metadataCu": 17714,
+      "solveCu": 110893
+    },
+    {
+      "name": "mixed build 67",
+      "totalCu": 82559,
+      "metadataCu": 6107,
+      "solveCu": 76159
+    },
+    {
+      "name": "workforce 67",
+      "totalCu": 141469,
+      "metadataCu": 8442,
+      "solveCu": 132734
+    },
+    {
+      "name": "mixed 68",
+      "totalCu": 123574,
+      "metadataCu": 17626,
+      "solveCu": 105655
+    },
+    {
+      "name": "mixed build 68",
+      "totalCu": 75317,
+      "metadataCu": 6115,
+      "solveCu": 68909
+    },
+    {
+      "name": "workforce 68",
+      "totalCu": 132534,
+      "metadataCu": 8414,
+      "solveCu": 123827
+    },
+    {
+      "name": "mixed 69",
+      "totalCu": 119700,
+      "metadataCu": 17549,
+      "solveCu": 101858
+    },
+    {
+      "name": "mixed build 69",
+      "totalCu": 37356,
+      "metadataCu": 6111,
+      "solveCu": 30952
+    },
+    {
+      "name": "workforce 69",
+      "totalCu": 130181,
+      "metadataCu": 8428,
+      "solveCu": 121460
+    },
+    {
+      "name": "mixed 70",
+      "totalCu": 125503,
+      "metadataCu": 17379,
+      "solveCu": 107831
+    },
+    {
+      "name": "mixed build 70",
+      "totalCu": 79570,
+      "metadataCu": 6064,
+      "solveCu": 73213
+    },
+    {
+      "name": "workforce 70",
+      "totalCu": 132789,
+      "metadataCu": 8417,
+      "solveCu": 124079
+    },
+    {
+      "name": "mixed 71",
+      "totalCu": 129130,
+      "metadataCu": 17124,
+      "solveCu": 111713
+    },
+    {
+      "name": "mixed build 71",
+      "totalCu": 13682,
+      "metadataCu": 6192,
+      "solveCu": 7197
+    },
+    {
+      "name": "workforce 71",
+      "totalCu": 145774,
+      "metadataCu": 8443,
+      "solveCu": 137038
+    },
+    {
+      "name": "mixed 72",
+      "totalCu": 132366,
+      "metadataCu": 17472,
+      "solveCu": 114601
+    },
+    {
+      "name": "mixed build 72",
+      "totalCu": 13653,
+      "metadataCu": 6168,
+      "solveCu": 7192
+    },
+    {
+      "name": "workforce 72",
+      "totalCu": 147180,
+      "metadataCu": 8472,
+      "solveCu": 138415
+    },
+    {
+      "name": "mixed 73",
+      "totalCu": 134545,
+      "metadataCu": 17387,
+      "solveCu": 116865
+    },
+    {
+      "name": "mixed build 73",
+      "totalCu": 83999,
+      "metadataCu": 6348,
+      "solveCu": 77358
+    },
+    {
+      "name": "workforce 73",
+      "totalCu": 147184,
+      "metadataCu": 8710,
+      "solveCu": 138181
+    },
+    {
+      "name": "mixed 74",
+      "totalCu": 140936,
+      "metadataCu": 17855,
+      "solveCu": 122788
+    },
+    {
+      "name": "mixed build 74",
+      "totalCu": 38461,
+      "metadataCu": 6133,
+      "solveCu": 32035
+    },
+    {
+      "name": "workforce 74",
+      "totalCu": 151069,
+      "metadataCu": 8522,
+      "solveCu": 142254
+    },
+    {
+      "name": "mixed 75",
+      "totalCu": 122647,
+      "metadataCu": 17643,
+      "solveCu": 104711
+    },
+    {
+      "name": "mixed build 75",
+      "totalCu": 72680,
+      "metadataCu": 6155,
+      "solveCu": 66232
+    },
+    {
+      "name": "workforce 75",
+      "totalCu": 131148,
+      "metadataCu": 8463,
+      "solveCu": 122392
+    },
+    {
+      "name": "mixed 76",
+      "totalCu": 122873,
+      "metadataCu": 17521,
+      "solveCu": 105059
+    },
+    {
+      "name": "mixed build 76",
+      "totalCu": 32701,
+      "metadataCu": 6140,
+      "solveCu": 26268
+    },
+    {
+      "name": "workforce 76",
+      "totalCu": 130388,
+      "metadataCu": 8502,
+      "solveCu": 121593
+    },
+    {
+      "name": "mixed 77",
+      "totalCu": 135841,
+      "metadataCu": 17748,
+      "solveCu": 117800
+    },
+    {
+      "name": "mixed build 77",
+      "totalCu": 81568,
+      "metadataCu": 6099,
+      "solveCu": 75176
+    },
+    {
+      "name": "workforce 77",
+      "totalCu": 147978,
+      "metadataCu": 8461,
+      "solveCu": 139224
+    },
+    {
+      "name": "mixed 78",
+      "totalCu": 117963,
+      "metadataCu": 17595,
+      "solveCu": 100075
+    },
+    {
+      "name": "mixed build 78",
+      "totalCu": 58790,
+      "metadataCu": 5988,
+      "solveCu": 52509
+    },
+    {
+      "name": "workforce 78",
+      "totalCu": 140153,
+      "metadataCu": 8350,
+      "solveCu": 131510
+    },
+    {
+      "name": "mixed 79",
+      "totalCu": 127208,
+      "metadataCu": 17224,
+      "solveCu": 109691
+    },
+    {
+      "name": "mixed build 79",
+      "totalCu": 77135,
+      "metadataCu": 6064,
+      "solveCu": 70778
+    },
+    {
+      "name": "workforce 79",
+      "totalCu": 146340,
+      "metadataCu": 8435,
+      "solveCu": 137612
+    },
+    {
+      "name": "mixed 80",
+      "totalCu": 132670,
+      "metadataCu": 17819,
+      "solveCu": 114558
+    },
+    {
+      "name": "mixed build 80",
+      "totalCu": 84485,
+      "metadataCu": 6112,
+      "solveCu": 78080
+    },
+    {
+      "name": "workforce 80",
+      "totalCu": 146091,
+      "metadataCu": 8436,
+      "solveCu": 137362
+    },
+    {
+      "name": "mixed 81",
+      "totalCu": 125777,
+      "metadataCu": 17069,
+      "solveCu": 108415
+    },
+    {
+      "name": "mixed build 81",
+      "totalCu": 13088,
+      "metadataCu": 6219,
+      "solveCu": 6576
+    },
+    {
+      "name": "workforce 81",
+      "totalCu": 135965,
+      "metadataCu": 8548,
+      "solveCu": 127124
+    },
+    {
+      "name": "mixed 82",
+      "totalCu": 120388,
+      "metadataCu": 17554,
+      "solveCu": 102541
+    },
+    {
+      "name": "mixed build 82",
+      "totalCu": 14128,
+      "metadataCu": 6214,
+      "solveCu": 7621
+    },
+    {
+      "name": "workforce 82",
+      "totalCu": 125695,
+      "metadataCu": 8517,
+      "solveCu": 116885
+    },
+    {
+      "name": "mixed 83",
+      "totalCu": 131807,
+      "metadataCu": 17493,
+      "solveCu": 114021
+    },
+    {
+      "name": "mixed build 83",
+      "totalCu": 73377,
+      "metadataCu": 6110,
+      "solveCu": 66974
+    },
+    {
+      "name": "workforce 83",
+      "totalCu": 139750,
+      "metadataCu": 8436,
+      "solveCu": 131021
+    },
+    {
+      "name": "mixed 84",
+      "totalCu": 133584,
+      "metadataCu": 17634,
+      "solveCu": 115657
+    },
+    {
+      "name": "mixed build 84",
+      "totalCu": 40242,
+      "metadataCu": 6126,
+      "solveCu": 33823
+    },
+    {
+      "name": "workforce 84",
+      "totalCu": 142818,
+      "metadataCu": 8506,
+      "solveCu": 134019
+    },
+    {
+      "name": "mixed 85",
+      "totalCu": 132523,
+      "metadataCu": 17574,
+      "solveCu": 114656
+    },
+    {
+      "name": "mixed build 85",
+      "totalCu": 37420,
+      "metadataCu": 6040,
+      "solveCu": 31087
+    },
+    {
+      "name": "workforce 85",
+      "totalCu": 146297,
+      "metadataCu": 8465,
+      "solveCu": 137539
+    },
+    {
+      "name": "mixed 86",
+      "totalCu": 126269,
+      "metadataCu": 17114,
+      "solveCu": 108862
+    },
+    {
+      "name": "mixed build 86",
+      "totalCu": 13780,
+      "metadataCu": 6243,
+      "solveCu": 7244
+    },
+    {
+      "name": "workforce 86",
+      "totalCu": 134361,
+      "metadataCu": 8554,
+      "solveCu": 125514
+    },
+    {
+      "name": "mixed 87",
+      "totalCu": 123372,
+      "metadataCu": 16925,
+      "solveCu": 106154
+    },
+    {
+      "name": "mixed build 87",
+      "totalCu": 14182,
+      "metadataCu": 6118,
+      "solveCu": 7771
+    },
+    {
+      "name": "workforce 87",
+      "totalCu": 138594,
+      "metadataCu": 8476,
+      "solveCu": 129825
+    },
+    {
+      "name": "mixed 88",
+      "totalCu": 132488,
+      "metadataCu": 17355,
+      "solveCu": 114840
+    },
+    {
+      "name": "mixed build 88",
+      "totalCu": 13630,
+      "metadataCu": 6092,
+      "solveCu": 7245
+    },
+    {
+      "name": "workforce 88",
+      "totalCu": 138498,
+      "metadataCu": 8467,
+      "solveCu": 129738
+    },
+    {
+      "name": "mixed 89",
+      "totalCu": 125706,
+      "metadataCu": 17118,
+      "solveCu": 108295
+    },
+    {
+      "name": "mixed build 89",
+      "totalCu": 80521,
+      "metadataCu": 6117,
+      "solveCu": 74111
+    },
+    {
+      "name": "workforce 89",
+      "totalCu": 138135,
+      "metadataCu": 8479,
+      "solveCu": 129363
+    },
+    {
+      "name": "mixed 90",
+      "totalCu": 118428,
+      "metadataCu": 17678,
+      "solveCu": 100457
+    },
+    {
+      "name": "mixed build 90",
+      "totalCu": 71934,
+      "metadataCu": 6090,
+      "solveCu": 65551
+    },
+    {
+      "name": "workforce 90",
+      "totalCu": 136512,
+      "metadataCu": 8387,
+      "solveCu": 127832
+    },
+    {
+      "name": "mixed 91",
+      "totalCu": 126260,
+      "metadataCu": 17816,
+      "solveCu": 108151
+    },
+    {
+      "name": "mixed build 91",
+      "totalCu": 12730,
+      "metadataCu": 6170,
+      "solveCu": 6267
+    },
+    {
+      "name": "workforce 91",
+      "totalCu": 136090,
+      "metadataCu": 8436,
+      "solveCu": 127361
+    },
+    {
+      "name": "mixed 92",
+      "totalCu": 121506,
+      "metadataCu": 17127,
+      "solveCu": 104086
+    },
+    {
+      "name": "mixed build 92",
+      "totalCu": 77692,
+      "metadataCu": 6117,
+      "solveCu": 71282
+    },
+    {
+      "name": "workforce 92",
+      "totalCu": 143218,
+      "metadataCu": 8488,
+      "solveCu": 134437
+    },
+    {
+      "name": "mixed 93",
+      "totalCu": 135785,
+      "metadataCu": 17845,
+      "solveCu": 117647
+    },
+    {
+      "name": "mixed build 93",
+      "totalCu": 92759,
+      "metadataCu": 5973,
+      "solveCu": 86493
+    },
+    {
+      "name": "workforce 93",
+      "totalCu": 156558,
+      "metadataCu": 8371,
+      "solveCu": 147894
+    },
+    {
+      "name": "mixed 94",
+      "totalCu": 113504,
+      "metadataCu": 16951,
+      "solveCu": 96260
+    },
+    {
+      "name": "mixed build 94",
+      "totalCu": 72955,
+      "metadataCu": 6193,
+      "solveCu": 66469
+    },
+    {
+      "name": "workforce 94",
+      "totalCu": 132723,
+      "metadataCu": 8519,
+      "solveCu": 123911
+    },
+    {
+      "name": "mixed 95",
+      "totalCu": 113484,
+      "metadataCu": 17721,
+      "solveCu": 95470
+    },
+    {
+      "name": "mixed build 95",
+      "totalCu": 12856,
+      "metadataCu": 6157,
+      "solveCu": 6406
+    },
+    {
+      "name": "workforce 95",
+      "totalCu": 125702,
+      "metadataCu": 8462,
+      "solveCu": 116947
+    },
+    {
+      "name": "mixed 96",
+      "totalCu": 120421,
+      "metadataCu": 17542,
+      "solveCu": 102586
+    },
+    {
+      "name": "mixed build 96",
+      "totalCu": 68005,
+      "metadataCu": 6011,
+      "solveCu": 61701
+    },
+    {
+      "name": "workforce 96",
+      "totalCu": 129781,
+      "metadataCu": 8319,
+      "solveCu": 121169
+    },
+    {
+      "name": "mixed 97",
+      "totalCu": 129202,
+      "metadataCu": 17643,
+      "solveCu": 111266
+    },
+    {
+      "name": "mixed build 97",
+      "totalCu": 35170,
+      "metadataCu": 6101,
+      "solveCu": 28776
+    },
+    {
+      "name": "workforce 97",
+      "totalCu": 139434,
+      "metadataCu": 8445,
+      "solveCu": 130696
+    },
+    {
+      "name": "mixed 98",
+      "totalCu": 140902,
+      "metadataCu": 17209,
+      "solveCu": 123400
+    },
+    {
+      "name": "mixed build 98",
+      "totalCu": 14175,
+      "metadataCu": 6126,
+      "solveCu": 7756
+    },
+    {
+      "name": "workforce 98",
+      "totalCu": 151805,
+      "metadataCu": 8487,
+      "solveCu": 143025
+    },
+    {
+      "name": "mixed 99",
+      "totalCu": 119855,
+      "metadataCu": 17681,
+      "solveCu": 101881
+    },
+    {
+      "name": "mixed build 99",
+      "totalCu": 32979,
+      "metadataCu": 5909,
+      "solveCu": 26777
+    },
+    {
+      "name": "workforce 99",
+      "totalCu": 136359,
+      "metadataCu": 8253,
+      "solveCu": 127813
+    },
+    {
+      "name": "mixed 100",
+      "totalCu": 126138,
+      "metadataCu": 17331,
+      "solveCu": 108514
+    },
+    {
+      "name": "mixed build 100",
+      "totalCu": 35582,
+      "metadataCu": 6178,
+      "solveCu": 29111
+    },
+    {
+      "name": "workforce 100",
+      "totalCu": 136011,
+      "metadataCu": 8522,
+      "solveCu": 127196
+    },
+    {
+      "name": "mixed 101",
+      "totalCu": 125785,
+      "metadataCu": 17340,
+      "solveCu": 108152
+    },
+    {
+      "name": "mixed build 101",
+      "totalCu": 77431,
+      "metadataCu": 6166,
+      "solveCu": 70972
+    },
+    {
+      "name": "workforce 101",
+      "totalCu": 141664,
+      "metadataCu": 8546,
+      "solveCu": 132825
+    },
+    {
+      "name": "mixed 102",
+      "totalCu": 123288,
+      "metadataCu": 17721,
+      "solveCu": 105274
+    },
+    {
+      "name": "mixed build 102",
+      "totalCu": 73712,
+      "metadataCu": 6095,
+      "solveCu": 67324
+    },
+    {
+      "name": "workforce 102",
+      "totalCu": 136743,
+      "metadataCu": 8439,
+      "solveCu": 128011
+    },
+    {
+      "name": "mixed 103",
+      "totalCu": 118119,
+      "metadataCu": 17455,
+      "solveCu": 100371
+    },
+    {
+      "name": "mixed build 103",
+      "totalCu": 32635,
+      "metadataCu": 6005,
+      "solveCu": 26337
+    },
+    {
+      "name": "workforce 103",
+      "totalCu": 132028,
+      "metadataCu": 8340,
+      "solveCu": 123395
+    },
+    {
+      "name": "mixed 104",
+      "totalCu": 124043,
+      "metadataCu": 17641,
+      "solveCu": 106109
+    },
+    {
+      "name": "mixed build 104",
+      "totalCu": 75131,
+      "metadataCu": 6088,
+      "solveCu": 68750
+    },
+    {
+      "name": "workforce 104",
+      "totalCu": 137683,
+      "metadataCu": 8441,
+      "solveCu": 128949
+    },
+    {
+      "name": "mixed 105",
+      "totalCu": 118883,
+      "metadataCu": 17596,
+      "solveCu": 100994
+    },
+    {
+      "name": "mixed build 105",
+      "totalCu": 74736,
+      "metadataCu": 6128,
+      "solveCu": 68315
+    },
+    {
+      "name": "workforce 105",
+      "totalCu": 129602,
+      "metadataCu": 8454,
+      "solveCu": 120855
+    },
+    {
+      "name": "mixed 106",
+      "totalCu": 128766,
+      "metadataCu": 17658,
+      "solveCu": 110815
+    },
+    {
+      "name": "mixed build 106",
+      "totalCu": 73053,
+      "metadataCu": 6134,
+      "solveCu": 66626
+    },
+    {
+      "name": "workforce 106",
+      "totalCu": 135705,
+      "metadataCu": 8532,
+      "solveCu": 126880
+    },
+    {
+      "name": "mixed 107",
+      "totalCu": 124421,
+      "metadataCu": 17405,
+      "solveCu": 106723
+    },
+    {
+      "name": "mixed build 107",
+      "totalCu": 12935,
+      "metadataCu": 6129,
+      "solveCu": 6513
+    },
+    {
+      "name": "workforce 107",
+      "totalCu": 134993,
+      "metadataCu": 8478,
+      "solveCu": 126222
+    },
+    {
+      "name": "mixed 108",
+      "totalCu": 120331,
+      "metadataCu": 17765,
+      "solveCu": 102273
+    },
+    {
+      "name": "mixed build 108",
+      "totalCu": 66602,
+      "metadataCu": 6139,
+      "solveCu": 60170
+    },
+    {
+      "name": "workforce 108",
+      "totalCu": 131606,
+      "metadataCu": 8456,
+      "solveCu": 122857
+    },
+    {
+      "name": "mixed 109",
+      "totalCu": 133401,
+      "metadataCu": 17721,
+      "solveCu": 115387
+    },
+    {
+      "name": "mixed build 109",
+      "totalCu": 81784,
+      "metadataCu": 5988,
+      "solveCu": 75503
+    },
+    {
+      "name": "workforce 109",
+      "totalCu": 140630,
+      "metadataCu": 8350,
+      "solveCu": 131987
+    },
+    {
+      "name": "mixed 110",
+      "totalCu": 134513,
+      "metadataCu": 17450,
+      "solveCu": 116770
+    },
+    {
+      "name": "mixed build 110",
+      "totalCu": 82099,
+      "metadataCu": 6030,
+      "solveCu": 75776
+    },
+    {
+      "name": "workforce 110",
+      "totalCu": 150090,
+      "metadataCu": 8401,
+      "solveCu": 141396
+    },
+    {
+      "name": "mixed 111",
+      "totalCu": 132839,
+      "metadataCu": 17832,
+      "solveCu": 114714
+    },
+    {
+      "name": "mixed build 111",
+      "totalCu": 86141,
+      "metadataCu": 6026,
+      "solveCu": 79822
+    },
+    {
+      "name": "workforce 111",
+      "totalCu": 151126,
+      "metadataCu": 8370,
+      "solveCu": 142463
+    },
+    {
+      "name": "mixed 112",
+      "totalCu": 124699,
+      "metadataCu": 18019,
+      "solveCu": 106387
+    },
+    {
+      "name": "mixed build 112",
+      "totalCu": 12129,
+      "metadataCu": 6069,
+      "solveCu": 5767
+    },
+    {
+      "name": "workforce 112",
+      "totalCu": 140755,
+      "metadataCu": 8353,
+      "solveCu": 132109
+    },
+    {
+      "name": "mixed 113",
+      "totalCu": 126358,
+      "metadataCu": 17889,
+      "solveCu": 108176
+    },
+    {
+      "name": "mixed build 113",
+      "totalCu": 72712,
+      "metadataCu": 6101,
+      "solveCu": 66318
+    },
+    {
+      "name": "workforce 113",
+      "totalCu": 140392,
+      "metadataCu": 8379,
+      "solveCu": 131720
+    },
+    {
+      "name": "mixed 114",
+      "totalCu": 119790,
+      "metadataCu": 17865,
+      "solveCu": 101632
+    },
+    {
+      "name": "mixed build 114",
+      "totalCu": 76121,
+      "metadataCu": 6059,
+      "solveCu": 69769
+    },
+    {
+      "name": "workforce 114",
+      "totalCu": 125731,
+      "metadataCu": 8430,
+      "solveCu": 117008
+    },
+    {
+      "name": "mixed 115",
+      "totalCu": 110837,
+      "metadataCu": 17349,
+      "solveCu": 93195
+    },
+    {
+      "name": "mixed build 115",
+      "totalCu": 64027,
+      "metadataCu": 6166,
+      "solveCu": 57568
+    },
+    {
+      "name": "workforce 115",
+      "totalCu": 125128,
+      "metadataCu": 8336,
+      "solveCu": 116499
+    },
+    {
+      "name": "mixed 116",
+      "totalCu": 122967,
+      "metadataCu": 17293,
+      "solveCu": 105381
+    },
+    {
+      "name": "mixed build 116",
+      "totalCu": 13923,
+      "metadataCu": 6250,
+      "solveCu": 7380
+    },
+    {
+      "name": "workforce 116",
+      "totalCu": 133281,
+      "metadataCu": 8534,
+      "solveCu": 124454
+    },
+    {
+      "name": "mixed 117",
+      "totalCu": 137066,
+      "metadataCu": 17057,
+      "solveCu": 119716
+    },
+    {
+      "name": "mixed build 117",
+      "totalCu": 88026,
+      "metadataCu": 6004,
+      "solveCu": 81729
+    },
+    {
+      "name": "workforce 117",
+      "totalCu": 153634,
+      "metadataCu": 8420,
+      "solveCu": 144921
+    },
+    {
+      "name": "mixed 118",
+      "totalCu": 120487,
+      "metadataCu": 17849,
+      "solveCu": 102345
+    },
+    {
+      "name": "mixed build 118",
+      "totalCu": 67443,
+      "metadataCu": 6036,
+      "solveCu": 61114
+    },
+    {
+      "name": "workforce 118",
+      "totalCu": 133023,
+      "metadataCu": 8315,
+      "solveCu": 124415
+    },
+    {
+      "name": "mixed 119",
+      "totalCu": 131611,
+      "metadataCu": 17217,
+      "solveCu": 114101
+    },
+    {
+      "name": "mixed build 119",
+      "totalCu": 79903,
+      "metadataCu": 6119,
+      "solveCu": 73491
+    },
+    {
+      "name": "workforce 119",
+      "totalCu": 140702,
+      "metadataCu": 8481,
+      "solveCu": 131928
+    }
+  ]
+}

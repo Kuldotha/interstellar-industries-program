@@ -1,0 +1,18 @@
+{
+  "sponsor": "HGx1ouANmqoGvRnLdoL34Byq5KmbFXBReU5g4VQ4Cghw",
+  "admin": "7SMQSQ6hhyy1xwPsEoFNWdnGxfR3BYdb4VPkjUrzHU2s",
+  "before": 1697596360,
+  "transactions": [
+    "A4AeJ9EYnGUhpzv4rjT2UV8zG5yWNkeEr3ge7BFFA9HmozN6Kyyoc79jp9t5SmxnJKPuoAVTZBs7LSRcF4wcA19",
+    "2QcbTMu9k2ZhhFQVjjjFkcjrbHi2ZKXzP3j7PgTPY2MXA46qHXMVDKEquNZiYy65Md1Xv3UY7tJzWQnja3icWM9K",
+    "267pM4x2HeZHhnN2hWBdVBk61nP3Dmx4ZKG5VD41LkVAvrRmyhyDop5PRvdgLMgsxhPjs4aT35tFL6tmSzU1aTf1",
+    "4Du1XCx5eM2HtSDmLysWEawBuTVYgCodPEutRfPFS1CNnV9ARAAmnmYvti45wTU4aN6pPhSmRozz5oS9zc6nrD38"
+  ],
+  "validator": "MEUGGrYPxKk17hCr7wpT6s8dtNokZj5U2L57vjYMS8e",
+  "funding": 1792896,
+  "rpc": "https://devnet-eu.magicblock.app/",
+  "ready": true,
+  "sponsorBalanceER": 1984832,
+  "after": 1692567584,
+  "baseDebit": 5028776
+}

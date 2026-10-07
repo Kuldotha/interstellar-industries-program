@@ -1,0 +1,3125 @@
+{
+  "maxCu": 174221,
+  "measurements": [
+    {
+      "name": "isolated init 0",
+      "cu": 49206,
+      "advance": 103,
+      "refresh": 48662
+    },
+    {
+      "name": "isolated step 0",
+      "cu": 2740,
+      "advance": 630,
+      "refresh": 1671
+    },
+    {
+      "name": "isolated init 1",
+      "cu": 49472,
+      "advance": 103,
+      "refresh": 48928
+    },
+    {
+      "name": "isolated step 1",
+      "cu": 3107,
+      "advance": 756,
+      "refresh": 1912
+    },
+    {
+      "name": "isolated init 4",
+      "cu": 49673,
+      "advance": 103,
+      "refresh": 49129
+    },
+    {
+      "name": "isolated step 4",
+      "cu": 3674,
+      "advance": 1125,
+      "refresh": 2110
+    },
+    {
+      "name": "isolated init 8",
+      "cu": 49941,
+      "advance": 103,
+      "refresh": 49397
+    },
+    {
+      "name": "isolated step 8",
+      "cu": 4430,
+      "advance": 1617,
+      "refresh": 2374
+    },
+    {
+      "name": "bootstrap",
+      "cu": 52023,
+      "advance": 103,
+      "refresh": 51479
+    },
+    {
+      "name": "growth 1",
+      "cu": 51115,
+      "advance": 811,
+      "refresh": 49865
+    },
+    {
+      "name": "growth 2",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 3",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 4",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 5",
+      "cu": 1649,
+      "advance": 819,
+      "refresh": 391
+    },
+    {
+      "name": "growth 6",
+      "cu": 49641,
+      "advance": 819,
+      "refresh": 48383
+    },
+    {
+      "name": "growth 7",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 8",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 9",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 10",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 11",
+      "cu": 1649,
+      "advance": 819,
+      "refresh": 391
+    },
+    {
+      "name": "growth 12",
+      "cu": 49641,
+      "advance": 819,
+      "refresh": 48383
+    },
+    {
+      "name": "growth 13",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 14",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 15",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 16",
+      "cu": 3195,
+      "advance": 819,
+      "refresh": 1937
+    },
+    {
+      "name": "growth 17",
+      "cu": 1649,
+      "advance": 819,
+      "refresh": 391
+    },
+    {
+      "name": "growth 18",
+      "cu": 49618,
+      "advance": 811,
+      "refresh": 48368
+    },
+    {
+      "name": "growth 19",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 20",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 21",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 22",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 23",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 24",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 25",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 26",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 27",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 28",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 29",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 30",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 31",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 32",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 33",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 34",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 35",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 36",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 37",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 38",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 39",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 40",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 41",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 42",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 43",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 44",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 45",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 46",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 47",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 48",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 49",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 50",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 51",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 52",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 53",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 54",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 55",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 56",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 57",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 58",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 59",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "growth 60",
+      "cu": 3084,
+      "advance": 723,
+      "refresh": 1922
+    },
+    {
+      "name": "duplicate time",
+      "cu": 2494,
+      "advance": 133,
+      "refresh": 1922
+    },
+    {
+      "name": "stable day",
+      "cu": 3160,
+      "advance": 799,
+      "refresh": 1922
+    },
+    {
+      "name": "remove food",
+      "cu": 49469,
+      "advance": 103,
+      "refresh": 48929
+    },
+    {
+      "name": "decline 0",
+      "cu": 1588,
+      "advance": 756,
+      "refresh": 393
+    },
+    {
+      "name": "decline 1",
+      "cu": 50128,
+      "advance": 756,
+      "refresh": 48933
+    },
+    {
+      "name": "decline 2",
+      "cu": 1588,
+      "advance": 756,
+      "refresh": 393
+    },
+    {
+      "name": "decline 3",
+      "cu": 50128,
+      "advance": 756,
+      "refresh": 48933
+    },
+    {
+      "name": "decline 4",
+      "cu": 1588,
+      "advance": 756,
+      "refresh": 393
+    },
+    {
+      "name": "decline 5",
+      "cu": 50102,
+      "advance": 748,
+      "refresh": 48915
+    },
+    {
+      "name": "half fish demand",
+      "cu": 49635,
+      "advance": 103,
+      "refresh": 49091
+    },
+    {
+      "name": "stock supplies missing half",
+      "cu": 49086,
+      "advance": 103,
+      "refresh": 48546
+    },
+    {
+      "name": "full web 1",
+      "cu": 91472,
+      "advance": 103,
+      "refresh": 90928
+    },
+    {
+      "name": "full web tick 1",
+      "cu": 147980,
+      "advance": 3417,
+      "refresh": 144124
+    },
+    {
+      "name": "full web 2",
+      "cu": 91763,
+      "advance": 103,
+      "refresh": 91219
+    },
+    {
+      "name": "full web tick 2",
+      "cu": 148339,
+      "advance": 3540,
+      "refresh": 144360
+    },
+    {
+      "name": "full web 4",
+      "cu": 93191,
+      "advance": 103,
+      "refresh": 92647
+    },
+    {
+      "name": "full web tick 4",
+      "cu": 150308,
+      "advance": 3910,
+      "refresh": 145959
+    },
+    {
+      "name": "full web 8",
+      "cu": 92809,
+      "advance": 103,
+      "refresh": 92265
+    },
+    {
+      "name": "full web tick 8",
+      "cu": 150081,
+      "advance": 4340,
+      "refresh": 145302
+    },
+    {
+      "name": "mixed stock/caps 0",
+      "cu": 163441,
+      "advance": 103,
+      "refresh": 162897
+    },
+    {
+      "name": "mixed stock/caps 0 tick 1",
+      "cu": 159871,
+      "advance": 5070,
+      "refresh": 154362
+    },
+    {
+      "name": "mixed stock/caps 0 tick 2",
+      "cu": 151300,
+      "advance": 5326,
+      "refresh": 145535
+    },
+    {
+      "name": "mixed stock/caps 0 tick 3",
+      "cu": 6636,
+      "advance": 5335,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 0 tick 4",
+      "cu": 151297,
+      "advance": 5327,
+      "refresh": 145531
+    },
+    {
+      "name": "mixed stock/caps 0 tick 5",
+      "cu": 6637,
+      "advance": 5335,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 0 tick 6",
+      "cu": 151289,
+      "advance": 5326,
+      "refresh": 145524
+    },
+    {
+      "name": "mixed stock/caps 0 tick 7",
+      "cu": 6628,
+      "advance": 5335,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 0 tick 8",
+      "cu": 151267,
+      "advance": 5306,
+      "refresh": 145522
+    },
+    {
+      "name": "mixed stock/caps 1",
+      "cu": 170284,
+      "advance": 103,
+      "refresh": 169740
+    },
+    {
+      "name": "mixed stock/caps 1 tick 1",
+      "cu": 164050,
+      "advance": 5224,
+      "refresh": 158387
+    },
+    {
+      "name": "mixed stock/caps 1 tick 2",
+      "cu": 155666,
+      "advance": 5513,
+      "refresh": 149714
+    },
+    {
+      "name": "mixed stock/caps 1 tick 3",
+      "cu": 6708,
+      "advance": 5425,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 1 tick 4",
+      "cu": 155553,
+      "advance": 5416,
+      "refresh": 149698
+    },
+    {
+      "name": "mixed stock/caps 1 tick 5",
+      "cu": 6599,
+      "advance": 5328,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 1 tick 6",
+      "cu": 155409,
+      "advance": 5309,
+      "refresh": 149661
+    },
+    {
+      "name": "mixed stock/caps 1 tick 7",
+      "cu": 9308,
+      "advance": 5135,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 1 tick 8",
+      "cu": 9308,
+      "advance": 5135,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 2",
+      "cu": 154726,
+      "advance": 103,
+      "refresh": 154182
+    },
+    {
+      "name": "mixed stock/caps 2 tick 1",
+      "cu": 152655,
+      "advance": 4728,
+      "refresh": 147488
+    },
+    {
+      "name": "mixed stock/caps 2 tick 2",
+      "cu": 143891,
+      "advance": 4962,
+      "refresh": 138490
+    },
+    {
+      "name": "mixed stock/caps 2 tick 3",
+      "cu": 6374,
+      "advance": 5068,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 2 tick 4",
+      "cu": 143986,
+      "advance": 5059,
+      "refresh": 138488
+    },
+    {
+      "name": "mixed stock/caps 2 tick 5",
+      "cu": 6374,
+      "advance": 5068,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 2 tick 6",
+      "cu": 143979,
+      "advance": 5059,
+      "refresh": 138481
+    },
+    {
+      "name": "mixed stock/caps 2 tick 7",
+      "cu": 6366,
+      "advance": 5068,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 2 tick 8",
+      "cu": 143957,
+      "advance": 5039,
+      "refresh": 138479
+    },
+    {
+      "name": "mixed stock/caps 3",
+      "cu": 166889,
+      "advance": 103,
+      "refresh": 166345
+    },
+    {
+      "name": "mixed stock/caps 3 tick 1",
+      "cu": 162020,
+      "advance": 5053,
+      "refresh": 156528
+    },
+    {
+      "name": "mixed stock/caps 3 tick 2",
+      "cu": 153155,
+      "advance": 5325,
+      "refresh": 147391
+    },
+    {
+      "name": "mixed stock/caps 3 tick 3",
+      "cu": 6640,
+      "advance": 5334,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 3 tick 4",
+      "cu": 153154,
+      "advance": 5325,
+      "refresh": 147390
+    },
+    {
+      "name": "mixed stock/caps 3 tick 5",
+      "cu": 6641,
+      "advance": 5334,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 3 tick 6",
+      "cu": 153109,
+      "advance": 5315,
+      "refresh": 147355
+    },
+    {
+      "name": "mixed stock/caps 3 tick 7",
+      "cu": 6410,
+      "advance": 5140,
+      "refresh": 831
+    },
+    {
+      "name": "mixed stock/caps 3 tick 8",
+      "cu": 152943,
+      "advance": 5121,
+      "refresh": 147383
+    },
+    {
+      "name": "mixed stock/caps 4",
+      "cu": 159865,
+      "advance": 103,
+      "refresh": 159321
+    },
+    {
+      "name": "mixed stock/caps 4 tick 1",
+      "cu": 155838,
+      "advance": 5329,
+      "refresh": 150070
+    },
+    {
+      "name": "mixed stock/caps 4 tick 2",
+      "cu": 147371,
+      "advance": 5641,
+      "refresh": 141291
+    },
+    {
+      "name": "mixed stock/caps 4 tick 3",
+      "cu": 6836,
+      "advance": 5553,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 4 tick 4",
+      "cu": 147258,
+      "advance": 5544,
+      "refresh": 141275
+    },
+    {
+      "name": "mixed stock/caps 4 tick 5",
+      "cu": 6727,
+      "advance": 5456,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 4 tick 6",
+      "cu": 147114,
+      "advance": 5437,
+      "refresh": 141238
+    },
+    {
+      "name": "mixed stock/caps 4 tick 7",
+      "cu": 9496,
+      "advance": 5262,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 4 tick 8",
+      "cu": 9496,
+      "advance": 5262,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 5",
+      "cu": 165653,
+      "advance": 103,
+      "refresh": 165109
+    },
+    {
+      "name": "mixed stock/caps 5 tick 1",
+      "cu": 162673,
+      "advance": 5340,
+      "refresh": 156894
+    },
+    {
+      "name": "mixed stock/caps 5 tick 2",
+      "cu": 166322,
+      "advance": 5632,
+      "refresh": 160251
+    },
+    {
+      "name": "mixed stock/caps 5 tick 3",
+      "cu": 162973,
+      "advance": 5645,
+      "refresh": 156889
+    },
+    {
+      "name": "mixed stock/caps 5 tick 4",
+      "cu": 166330,
+      "advance": 5641,
+      "refresh": 160250
+    },
+    {
+      "name": "mixed stock/caps 5 tick 5",
+      "cu": 162976,
+      "advance": 5645,
+      "refresh": 156892
+    },
+    {
+      "name": "mixed stock/caps 5 tick 6",
+      "cu": 166294,
+      "advance": 5622,
+      "refresh": 160233
+    },
+    {
+      "name": "mixed stock/caps 5 tick 7",
+      "cu": 162862,
+      "advance": 5548,
+      "refresh": 156875
+    },
+    {
+      "name": "mixed stock/caps 5 tick 8",
+      "cu": 166183,
+      "advance": 5516,
+      "refresh": 160228
+    },
+    {
+      "name": "mixed stock/caps 6",
+      "cu": 169560,
+      "advance": 103,
+      "refresh": 169016
+    },
+    {
+      "name": "mixed stock/caps 6 tick 1",
+      "cu": 162383,
+      "advance": 5282,
+      "refresh": 156662
+    },
+    {
+      "name": "mixed stock/caps 6 tick 2",
+      "cu": 153971,
+      "advance": 5571,
+      "refresh": 147961
+    },
+    {
+      "name": "mixed stock/caps 6 tick 3",
+      "cu": 163962,
+      "advance": 5569,
+      "refresh": 157954
+    },
+    {
+      "name": "mixed stock/caps 6 tick 4",
+      "cu": 165625,
+      "advance": 5563,
+      "refresh": 159623
+    },
+    {
+      "name": "mixed stock/caps 6 tick 5",
+      "cu": 6887,
+      "advance": 5580,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 6 tick 6",
+      "cu": 166903,
+      "advance": 5559,
+      "refresh": 160905
+    },
+    {
+      "name": "mixed stock/caps 6 tick 7",
+      "cu": 162558,
+      "advance": 5476,
+      "refresh": 156643
+    },
+    {
+      "name": "mixed stock/caps 6 tick 8",
+      "cu": 153803,
+      "advance": 5456,
+      "refresh": 147908
+    },
+    {
+      "name": "mixed stock/caps 7",
+      "cu": 162279,
+      "advance": 103,
+      "refresh": 161735
+    },
+    {
+      "name": "mixed stock/caps 7 tick 1",
+      "cu": 158780,
+      "advance": 5348,
+      "refresh": 152993
+    },
+    {
+      "name": "mixed stock/caps 7 tick 2",
+      "cu": 150206,
+      "advance": 5648,
+      "refresh": 144119
+    },
+    {
+      "name": "mixed stock/caps 7 tick 3",
+      "cu": 6949,
+      "advance": 5648,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 7 tick 4",
+      "cu": 150178,
+      "advance": 5639,
+      "refresh": 144100
+    },
+    {
+      "name": "mixed stock/caps 7 tick 5",
+      "cu": 6838,
+      "advance": 5551,
+      "refresh": 848
+    },
+    {
+      "name": "mixed stock/caps 7 tick 6",
+      "cu": 150034,
+      "advance": 5532,
+      "refresh": 144063
+    },
+    {
+      "name": "mixed stock/caps 7 tick 7",
+      "cu": 9592,
+      "advance": 5358,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 7 tick 8",
+      "cu": 9593,
+      "advance": 5358,
+      "refresh": 3796
+    },
+    {
+      "name": "mixed stock/caps 8",
+      "cu": 156519,
+      "advance": 103,
+      "refresh": 155975
+    },
+    {
+      "name": "mixed stock/caps 8 tick 1",
+      "cu": 155713,
+      "advance": 4937,
+      "refresh": 150337
+    },
+    {
+      "name": "mixed stock/caps 8 tick 2",
+      "cu": 147001,
+      "advance": 5194,
+      "refresh": 141368
+    },
+    {
+      "name": "mixed stock/caps 8 tick 3",
+      "cu": 6512,
+      "advance": 5203,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 8 tick 4",
+      "cu": 146986,
+      "advance": 5186,
+      "refresh": 141361
+    },
+    {
+      "name": "mixed stock/caps 8 tick 5",
+      "cu": 6505,
+      "advance": 5203,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 8 tick 6",
+      "cu": 146948,
+      "advance": 5184,
+      "refresh": 141325
+    },
+    {
+      "name": "mixed stock/caps 8 tick 7",
+      "cu": 6275,
+      "advance": 5010,
+      "refresh": 826
+    },
+    {
+      "name": "mixed stock/caps 8 tick 8",
+      "cu": 146749,
+      "advance": 5000,
+      "refresh": 141310
+    },
+    {
+      "name": "mixed stock/caps 9",
+      "cu": 162227,
+      "advance": 103,
+      "refresh": 161683
+    },
+    {
+      "name": "mixed stock/caps 9 tick 1",
+      "cu": 158705,
+      "advance": 4956,
+      "refresh": 153310
+    },
+    {
+      "name": "mixed stock/caps 9 tick 2",
+      "cu": 150062,
+      "advance": 5197,
+      "refresh": 144426
+    },
+    {
+      "name": "mixed stock/caps 9 tick 3",
+      "cu": 6507,
+      "advance": 5206,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 9 tick 4",
+      "cu": 150059,
+      "advance": 5198,
+      "refresh": 144422
+    },
+    {
+      "name": "mixed stock/caps 9 tick 5",
+      "cu": 6508,
+      "advance": 5206,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 9 tick 6",
+      "cu": 150051,
+      "advance": 5197,
+      "refresh": 144415
+    },
+    {
+      "name": "mixed stock/caps 9 tick 7",
+      "cu": 6499,
+      "advance": 5206,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 9 tick 8",
+      "cu": 150029,
+      "advance": 5177,
+      "refresh": 144413
+    },
+    {
+      "name": "mixed stock/caps 10",
+      "cu": 174221,
+      "advance": 103,
+      "refresh": 173677
+    },
+    {
+      "name": "mixed stock/caps 10 tick 1",
+      "cu": 165516,
+      "advance": 5209,
+      "refresh": 159868
+    },
+    {
+      "name": "mixed stock/caps 10 tick 2",
+      "cu": 157140,
+      "advance": 5506,
+      "refresh": 151195
+    },
+    {
+      "name": "mixed stock/caps 10 tick 3",
+      "cu": 6701,
+      "advance": 5418,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 10 tick 4",
+      "cu": 157027,
+      "advance": 5409,
+      "refresh": 151179
+    },
+    {
+      "name": "mixed stock/caps 10 tick 5",
+      "cu": 6592,
+      "advance": 5321,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 10 tick 6",
+      "cu": 156883,
+      "advance": 5302,
+      "refresh": 151142
+    },
+    {
+      "name": "mixed stock/caps 10 tick 7",
+      "cu": 9301,
+      "advance": 5128,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 10 tick 8",
+      "cu": 9301,
+      "advance": 5128,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 11",
+      "cu": 156331,
+      "advance": 103,
+      "refresh": 155787
+    },
+    {
+      "name": "mixed stock/caps 11 tick 1",
+      "cu": 152569,
+      "advance": 4706,
+      "refresh": 147424
+    },
+    {
+      "name": "mixed stock/caps 11 tick 2",
+      "cu": 143868,
+      "advance": 4963,
+      "refresh": 138466
+    },
+    {
+      "name": "mixed stock/caps 11 tick 3",
+      "cu": 6375,
+      "advance": 5069,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 11 tick 4",
+      "cu": 143963,
+      "advance": 5060,
+      "refresh": 138464
+    },
+    {
+      "name": "mixed stock/caps 11 tick 5",
+      "cu": 6375,
+      "advance": 5069,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 11 tick 6",
+      "cu": 143956,
+      "advance": 5060,
+      "refresh": 138457
+    },
+    {
+      "name": "mixed stock/caps 11 tick 7",
+      "cu": 6367,
+      "advance": 5069,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 11 tick 8",
+      "cu": 143934,
+      "advance": 5040,
+      "refresh": 138455
+    },
+    {
+      "name": "mixed stock/caps 12",
+      "cu": 158799,
+      "advance": 103,
+      "refresh": 158255
+    },
+    {
+      "name": "mixed stock/caps 12 tick 1",
+      "cu": 157682,
+      "advance": 4997,
+      "refresh": 152246
+    },
+    {
+      "name": "mixed stock/caps 12 tick 2",
+      "cu": 148827,
+      "advance": 5270,
+      "refresh": 143118
+    },
+    {
+      "name": "mixed stock/caps 12 tick 3",
+      "cu": 6585,
+      "advance": 5279,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 12 tick 4",
+      "cu": 148826,
+      "advance": 5270,
+      "refresh": 143117
+    },
+    {
+      "name": "mixed stock/caps 12 tick 5",
+      "cu": 6586,
+      "advance": 5279,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 12 tick 6",
+      "cu": 148781,
+      "advance": 5260,
+      "refresh": 143082
+    },
+    {
+      "name": "mixed stock/caps 12 tick 7",
+      "cu": 6355,
+      "advance": 5085,
+      "refresh": 831
+    },
+    {
+      "name": "mixed stock/caps 12 tick 8",
+      "cu": 148615,
+      "advance": 5066,
+      "refresh": 143110
+    },
+    {
+      "name": "mixed stock/caps 13",
+      "cu": 158963,
+      "advance": 103,
+      "refresh": 158419
+    },
+    {
+      "name": "mixed stock/caps 13 tick 1",
+      "cu": 156486,
+      "advance": 5631,
+      "refresh": 150416
+    },
+    {
+      "name": "mixed stock/caps 13 tick 2",
+      "cu": 148113,
+      "advance": 5959,
+      "refresh": 141715
+    },
+    {
+      "name": "mixed stock/caps 13 tick 3",
+      "cu": 7154,
+      "advance": 5871,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 13 tick 4",
+      "cu": 148000,
+      "advance": 5862,
+      "refresh": 141699
+    },
+    {
+      "name": "mixed stock/caps 13 tick 5",
+      "cu": 7045,
+      "advance": 5774,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 13 tick 6",
+      "cu": 147856,
+      "advance": 5755,
+      "refresh": 141662
+    },
+    {
+      "name": "mixed stock/caps 13 tick 7",
+      "cu": 9929,
+      "advance": 5580,
+      "refresh": 3910
+    },
+    {
+      "name": "mixed stock/caps 13 tick 8",
+      "cu": 9929,
+      "advance": 5580,
+      "refresh": 3910
+    },
+    {
+      "name": "mixed stock/caps 14",
+      "cu": 164448,
+      "advance": 103,
+      "refresh": 163904
+    },
+    {
+      "name": "mixed stock/caps 14 tick 1",
+      "cu": 158706,
+      "advance": 5406,
+      "refresh": 152861
+    },
+    {
+      "name": "mixed stock/caps 14 tick 2",
+      "cu": 150512,
+      "advance": 5710,
+      "refresh": 144363
+    },
+    {
+      "name": "mixed stock/caps 14 tick 3",
+      "cu": 7028,
+      "advance": 5719,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 14 tick 4",
+      "cu": 150520,
+      "advance": 5719,
+      "refresh": 144362
+    },
+    {
+      "name": "mixed stock/caps 14 tick 5",
+      "cu": 7031,
+      "advance": 5719,
+      "refresh": 873
+    },
+    {
+      "name": "mixed stock/caps 14 tick 6",
+      "cu": 150484,
+      "advance": 5700,
+      "refresh": 144345
+    },
+    {
+      "name": "mixed stock/caps 14 tick 7",
+      "cu": 6917,
+      "advance": 5622,
+      "refresh": 856
+    },
+    {
+      "name": "mixed stock/caps 14 tick 8",
+      "cu": 150373,
+      "advance": 5594,
+      "refresh": 144340
+    },
+    {
+      "name": "mixed stock/caps 15",
+      "cu": 168423,
+      "advance": 103,
+      "refresh": 167879
+    },
+    {
+      "name": "mixed stock/caps 15 tick 1",
+      "cu": 160207,
+      "advance": 5342,
+      "refresh": 154426
+    },
+    {
+      "name": "mixed stock/caps 15 tick 2",
+      "cu": 151826,
+      "advance": 5639,
+      "refresh": 145748
+    },
+    {
+      "name": "mixed stock/caps 15 tick 3",
+      "cu": 161055,
+      "advance": 5637,
+      "refresh": 154979
+    },
+    {
+      "name": "mixed stock/caps 15 tick 4",
+      "cu": 163480,
+      "advance": 5631,
+      "refresh": 157410
+    },
+    {
+      "name": "mixed stock/caps 15 tick 5",
+      "cu": 6955,
+      "advance": 5648,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 15 tick 6",
+      "cu": 164019,
+      "advance": 5627,
+      "refresh": 157953
+    },
+    {
+      "name": "mixed stock/caps 15 tick 7",
+      "cu": 160390,
+      "advance": 5544,
+      "refresh": 154407
+    },
+    {
+      "name": "mixed stock/caps 15 tick 8",
+      "cu": 151658,
+      "advance": 5524,
+      "refresh": 145695
+    },
+    {
+      "name": "mixed stock/caps 16",
+      "cu": 162038,
+      "advance": 103,
+      "refresh": 161494
+    },
+    {
+      "name": "mixed stock/caps 16 tick 1",
+      "cu": 159575,
+      "advance": 5287,
+      "refresh": 153849
+    },
+    {
+      "name": "mixed stock/caps 16 tick 2",
+      "cu": 150977,
+      "advance": 5586,
+      "refresh": 144952
+    },
+    {
+      "name": "mixed stock/caps 16 tick 3",
+      "cu": 6887,
+      "advance": 5586,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 16 tick 4",
+      "cu": 150949,
+      "advance": 5577,
+      "refresh": 144933
+    },
+    {
+      "name": "mixed stock/caps 16 tick 5",
+      "cu": 6776,
+      "advance": 5489,
+      "refresh": 848
+    },
+    {
+      "name": "mixed stock/caps 16 tick 6",
+      "cu": 150805,
+      "advance": 5470,
+      "refresh": 144896
+    },
+    {
+      "name": "mixed stock/caps 16 tick 7",
+      "cu": 9507,
+      "advance": 5296,
+      "refresh": 3772
+    },
+    {
+      "name": "mixed stock/caps 16 tick 8",
+      "cu": 9508,
+      "advance": 5296,
+      "refresh": 3773
+    },
+    {
+      "name": "mixed stock/caps 17",
+      "cu": 158592,
+      "advance": 103,
+      "refresh": 158048
+    },
+    {
+      "name": "mixed stock/caps 17 tick 1",
+      "cu": 157157,
+      "advance": 5055,
+      "refresh": 151663
+    },
+    {
+      "name": "mixed stock/caps 17 tick 2",
+      "cu": 148505,
+      "advance": 5321,
+      "refresh": 142745
+    },
+    {
+      "name": "mixed stock/caps 17 tick 3",
+      "cu": 6639,
+      "advance": 5330,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 17 tick 4",
+      "cu": 148490,
+      "advance": 5313,
+      "refresh": 142738
+    },
+    {
+      "name": "mixed stock/caps 17 tick 5",
+      "cu": 6632,
+      "advance": 5330,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 17 tick 6",
+      "cu": 148452,
+      "advance": 5311,
+      "refresh": 142702
+    },
+    {
+      "name": "mixed stock/caps 17 tick 7",
+      "cu": 6402,
+      "advance": 5137,
+      "refresh": 826
+    },
+    {
+      "name": "mixed stock/caps 17 tick 8",
+      "cu": 148253,
+      "advance": 5127,
+      "refresh": 142687
+    },
+    {
+      "name": "mixed stock/caps 18",
+      "cu": 166040,
+      "advance": 103,
+      "refresh": 165496
+    },
+    {
+      "name": "mixed stock/caps 18 tick 1",
+      "cu": 161813,
+      "advance": 5136,
+      "refresh": 156238
+    },
+    {
+      "name": "mixed stock/caps 18 tick 2",
+      "cu": 153243,
+      "advance": 5386,
+      "refresh": 147418
+    },
+    {
+      "name": "mixed stock/caps 18 tick 3",
+      "cu": 6696,
+      "advance": 5395,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 18 tick 4",
+      "cu": 153240,
+      "advance": 5387,
+      "refresh": 147414
+    },
+    {
+      "name": "mixed stock/caps 18 tick 5",
+      "cu": 6697,
+      "advance": 5395,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 18 tick 6",
+      "cu": 153232,
+      "advance": 5386,
+      "refresh": 147407
+    },
+    {
+      "name": "mixed stock/caps 18 tick 7",
+      "cu": 6688,
+      "advance": 5395,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 18 tick 8",
+      "cu": 153210,
+      "advance": 5366,
+      "refresh": 147405
+    },
+    {
+      "name": "mixed stock/caps 19",
+      "cu": 170964,
+      "advance": 103,
+      "refresh": 170420
+    },
+    {
+      "name": "mixed stock/caps 19 tick 1",
+      "cu": 163798,
+      "advance": 5279,
+      "refresh": 158080
+    },
+    {
+      "name": "mixed stock/caps 19 tick 2",
+      "cu": 155433,
+      "advance": 5569,
+      "refresh": 149425
+    },
+    {
+      "name": "mixed stock/caps 19 tick 3",
+      "cu": 6764,
+      "advance": 5481,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 19 tick 4",
+      "cu": 155320,
+      "advance": 5472,
+      "refresh": 149409
+    },
+    {
+      "name": "mixed stock/caps 19 tick 5",
+      "cu": 6655,
+      "advance": 5384,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 19 tick 6",
+      "cu": 155176,
+      "advance": 5365,
+      "refresh": 149372
+    },
+    {
+      "name": "mixed stock/caps 19 tick 7",
+      "cu": 9382,
+      "advance": 5191,
+      "refresh": 3752
+    },
+    {
+      "name": "mixed stock/caps 19 tick 8",
+      "cu": 9382,
+      "advance": 5191,
+      "refresh": 3752
+    },
+    {
+      "name": "mixed stock/caps 20",
+      "cu": 156454,
+      "advance": 103,
+      "refresh": 155910
+    },
+    {
+      "name": "mixed stock/caps 20 tick 1",
+      "cu": 154737,
+      "advance": 4539,
+      "refresh": 149759
+    },
+    {
+      "name": "mixed stock/caps 20 tick 2",
+      "cu": 145902,
+      "advance": 4771,
+      "refresh": 140692
+    },
+    {
+      "name": "mixed stock/caps 20 tick 3",
+      "cu": 6183,
+      "advance": 4877,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 20 tick 4",
+      "cu": 145997,
+      "advance": 4868,
+      "refresh": 140690
+    },
+    {
+      "name": "mixed stock/caps 20 tick 5",
+      "cu": 6183,
+      "advance": 4877,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 20 tick 6",
+      "cu": 145990,
+      "advance": 4868,
+      "refresh": 140683
+    },
+    {
+      "name": "mixed stock/caps 20 tick 7",
+      "cu": 6175,
+      "advance": 4877,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 20 tick 8",
+      "cu": 145968,
+      "advance": 4848,
+      "refresh": 140681
+    },
+    {
+      "name": "mixed stock/caps 21",
+      "cu": 157987,
+      "advance": 103,
+      "refresh": 157443
+    },
+    {
+      "name": "mixed stock/caps 21 tick 1",
+      "cu": 157003,
+      "advance": 4884,
+      "refresh": 151680
+    },
+    {
+      "name": "mixed stock/caps 21 tick 2",
+      "cu": 148045,
+      "advance": 5132,
+      "refresh": 142474
+    },
+    {
+      "name": "mixed stock/caps 21 tick 3",
+      "cu": 6447,
+      "advance": 5141,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 21 tick 4",
+      "cu": 148044,
+      "advance": 5132,
+      "refresh": 142473
+    },
+    {
+      "name": "mixed stock/caps 21 tick 5",
+      "cu": 6448,
+      "advance": 5141,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 21 tick 6",
+      "cu": 147999,
+      "advance": 5122,
+      "refresh": 142438
+    },
+    {
+      "name": "mixed stock/caps 21 tick 7",
+      "cu": 6217,
+      "advance": 4947,
+      "refresh": 831
+    },
+    {
+      "name": "mixed stock/caps 21 tick 8",
+      "cu": 147833,
+      "advance": 4928,
+      "refresh": 142466
+    },
+    {
+      "name": "mixed stock/caps 22",
+      "cu": 167384,
+      "advance": 103,
+      "refresh": 166840
+    },
+    {
+      "name": "mixed stock/caps 22 tick 1",
+      "cu": 159155,
+      "advance": 5504,
+      "refresh": 153212
+    },
+    {
+      "name": "mixed stock/caps 22 tick 2",
+      "cu": 150878,
+      "advance": 5833,
+      "refresh": 144606
+    },
+    {
+      "name": "mixed stock/caps 22 tick 3",
+      "cu": 7028,
+      "advance": 5745,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 22 tick 4",
+      "cu": 150765,
+      "advance": 5736,
+      "refresh": 144590
+    },
+    {
+      "name": "mixed stock/caps 22 tick 5",
+      "cu": 6919,
+      "advance": 5648,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 22 tick 6",
+      "cu": 150621,
+      "advance": 5629,
+      "refresh": 144553
+    },
+    {
+      "name": "mixed stock/caps 22 tick 7",
+      "cu": 9757,
+      "advance": 5454,
+      "refresh": 3864
+    },
+    {
+      "name": "mixed stock/caps 22 tick 8",
+      "cu": 9757,
+      "advance": 5454,
+      "refresh": 3864
+    },
+    {
+      "name": "mixed stock/caps 23",
+      "cu": 163590,
+      "advance": 103,
+      "refresh": 163046
+    },
+    {
+      "name": "mixed stock/caps 23 tick 1",
+      "cu": 160906,
+      "advance": 5208,
+      "refresh": 155259
+    },
+    {
+      "name": "mixed stock/caps 23 tick 2",
+      "cu": 152444,
+      "advance": 5512,
+      "refresh": 146493
+    },
+    {
+      "name": "mixed stock/caps 23 tick 3",
+      "cu": 6830,
+      "advance": 5521,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 23 tick 4",
+      "cu": 152452,
+      "advance": 5521,
+      "refresh": 146492
+    },
+    {
+      "name": "mixed stock/caps 23 tick 5",
+      "cu": 6833,
+      "advance": 5521,
+      "refresh": 873
+    },
+    {
+      "name": "mixed stock/caps 23 tick 6",
+      "cu": 152416,
+      "advance": 5502,
+      "refresh": 146475
+    },
+    {
+      "name": "mixed stock/caps 23 tick 7",
+      "cu": 6719,
+      "advance": 5424,
+      "refresh": 856
+    },
+    {
+      "name": "mixed stock/caps 23 tick 8",
+      "cu": 152305,
+      "advance": 5396,
+      "refresh": 146470
+    },
+    {
+      "name": "mixed stock/caps 24",
+      "cu": 161574,
+      "advance": 103,
+      "refresh": 161030
+    },
+    {
+      "name": "mixed stock/caps 24 tick 1",
+      "cu": 157287,
+      "advance": 5046,
+      "refresh": 151802
+    },
+    {
+      "name": "mixed stock/caps 24 tick 2",
+      "cu": 148715,
+      "advance": 5326,
+      "refresh": 142950
+    },
+    {
+      "name": "mixed stock/caps 24 tick 3",
+      "cu": 158756,
+      "advance": 5324,
+      "refresh": 152993
+    },
+    {
+      "name": "mixed stock/caps 24 tick 4",
+      "cu": 160438,
+      "advance": 5318,
+      "refresh": 154681
+    },
+    {
+      "name": "mixed stock/caps 24 tick 5",
+      "cu": 6642,
+      "advance": 5335,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 24 tick 6",
+      "cu": 161615,
+      "advance": 5314,
+      "refresh": 155862
+    },
+    {
+      "name": "mixed stock/caps 24 tick 7",
+      "cu": 157453,
+      "advance": 5231,
+      "refresh": 151783
+    },
+    {
+      "name": "mixed stock/caps 24 tick 8",
+      "cu": 148547,
+      "advance": 5211,
+      "refresh": 142897
+    },
+    {
+      "name": "mixed stock/caps 25",
+      "cu": 159069,
+      "advance": 103,
+      "refresh": 158525
+    },
+    {
+      "name": "mixed stock/caps 25 tick 1",
+      "cu": 154086,
+      "advance": 5338,
+      "refresh": 148309
+    },
+    {
+      "name": "mixed stock/caps 25 tick 2",
+      "cu": 145485,
+      "advance": 5589,
+      "refresh": 139457
+    },
+    {
+      "name": "mixed stock/caps 25 tick 3",
+      "cu": 6890,
+      "advance": 5589,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 25 tick 4",
+      "cu": 145457,
+      "advance": 5580,
+      "refresh": 139438
+    },
+    {
+      "name": "mixed stock/caps 25 tick 5",
+      "cu": 6779,
+      "advance": 5492,
+      "refresh": 848
+    },
+    {
+      "name": "mixed stock/caps 25 tick 6",
+      "cu": 145313,
+      "advance": 5473,
+      "refresh": 139401
+    },
+    {
+      "name": "mixed stock/caps 25 tick 7",
+      "cu": 9525,
+      "advance": 5299,
+      "refresh": 3787
+    },
+    {
+      "name": "mixed stock/caps 25 tick 8",
+      "cu": 9526,
+      "advance": 5299,
+      "refresh": 3788
+    },
+    {
+      "name": "mixed stock/caps 26",
+      "cu": 156800,
+      "advance": 103,
+      "refresh": 156256
+    },
+    {
+      "name": "mixed stock/caps 26 tick 1",
+      "cu": 155129,
+      "advance": 5062,
+      "refresh": 149628
+    },
+    {
+      "name": "mixed stock/caps 26 tick 2",
+      "cu": 146464,
+      "advance": 5320,
+      "refresh": 140705
+    },
+    {
+      "name": "mixed stock/caps 26 tick 3",
+      "cu": 6638,
+      "advance": 5329,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 26 tick 4",
+      "cu": 146449,
+      "advance": 5312,
+      "refresh": 140698
+    },
+    {
+      "name": "mixed stock/caps 26 tick 5",
+      "cu": 6631,
+      "advance": 5329,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 26 tick 6",
+      "cu": 146411,
+      "advance": 5310,
+      "refresh": 140662
+    },
+    {
+      "name": "mixed stock/caps 26 tick 7",
+      "cu": 6401,
+      "advance": 5136,
+      "refresh": 826
+    },
+    {
+      "name": "mixed stock/caps 26 tick 8",
+      "cu": 146212,
+      "advance": 5126,
+      "refresh": 140647
+    },
+    {
+      "name": "mixed stock/caps 27",
+      "cu": 165238,
+      "advance": 103,
+      "refresh": 164694
+    },
+    {
+      "name": "mixed stock/caps 27 tick 1",
+      "cu": 162100,
+      "advance": 4948,
+      "refresh": 156713
+    },
+    {
+      "name": "mixed stock/caps 27 tick 2",
+      "cu": 153464,
+      "advance": 5196,
+      "refresh": 147829
+    },
+    {
+      "name": "mixed stock/caps 27 tick 3",
+      "cu": 6506,
+      "advance": 5205,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 27 tick 4",
+      "cu": 153461,
+      "advance": 5197,
+      "refresh": 147825
+    },
+    {
+      "name": "mixed stock/caps 27 tick 5",
+      "cu": 6507,
+      "advance": 5205,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 27 tick 6",
+      "cu": 153453,
+      "advance": 5196,
+      "refresh": 147818
+    },
+    {
+      "name": "mixed stock/caps 27 tick 7",
+      "cu": 6498,
+      "advance": 5205,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 27 tick 8",
+      "cu": 153431,
+      "advance": 5176,
+      "refresh": 147816
+    },
+    {
+      "name": "mixed stock/caps 28",
+      "cu": 172374,
+      "advance": 103,
+      "refresh": 171830
+    },
+    {
+      "name": "mixed stock/caps 28 tick 1",
+      "cu": 165434,
+      "advance": 5342,
+      "refresh": 159653
+    },
+    {
+      "name": "mixed stock/caps 28 tick 2",
+      "cu": 157092,
+      "advance": 5632,
+      "refresh": 151021
+    },
+    {
+      "name": "mixed stock/caps 28 tick 3",
+      "cu": 6827,
+      "advance": 5544,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 28 tick 4",
+      "cu": 156979,
+      "advance": 5535,
+      "refresh": 151005
+    },
+    {
+      "name": "mixed stock/caps 28 tick 5",
+      "cu": 6718,
+      "advance": 5447,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 28 tick 6",
+      "cu": 156835,
+      "advance": 5428,
+      "refresh": 150968
+    },
+    {
+      "name": "mixed stock/caps 28 tick 7",
+      "cu": 9468,
+      "advance": 5254,
+      "refresh": 3775
+    },
+    {
+      "name": "mixed stock/caps 28 tick 8",
+      "cu": 9468,
+      "advance": 5254,
+      "refresh": 3775
+    },
+    {
+      "name": "mixed stock/caps 29",
+      "cu": 158016,
+      "advance": 103,
+      "refresh": 157472
+    },
+    {
+      "name": "mixed stock/caps 29 tick 1",
+      "cu": 155164,
+      "advance": 4797,
+      "refresh": 149928
+    },
+    {
+      "name": "mixed stock/caps 29 tick 2",
+      "cu": 146425,
+      "advance": 5033,
+      "refresh": 140953
+    },
+    {
+      "name": "mixed stock/caps 29 tick 3",
+      "cu": 6445,
+      "advance": 5139,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 29 tick 4",
+      "cu": 146520,
+      "advance": 5130,
+      "refresh": 140951
+    },
+    {
+      "name": "mixed stock/caps 29 tick 5",
+      "cu": 6445,
+      "advance": 5139,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 29 tick 6",
+      "cu": 146513,
+      "advance": 5130,
+      "refresh": 140944
+    },
+    {
+      "name": "mixed stock/caps 29 tick 7",
+      "cu": 6437,
+      "advance": 5139,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 29 tick 8",
+      "cu": 146491,
+      "advance": 5110,
+      "refresh": 140942
+    },
+    {
+      "name": "mixed stock/caps 30",
+      "cu": 162200,
+      "advance": 103,
+      "refresh": 161656
+    },
+    {
+      "name": "mixed stock/caps 30 tick 1",
+      "cu": 160676,
+      "advance": 4944,
+      "refresh": 155293
+    },
+    {
+      "name": "mixed stock/caps 30 tick 2",
+      "cu": 151738,
+      "advance": 5194,
+      "refresh": 146105
+    },
+    {
+      "name": "mixed stock/caps 30 tick 3",
+      "cu": 6509,
+      "advance": 5203,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 30 tick 4",
+      "cu": 151737,
+      "advance": 5194,
+      "refresh": 146104
+    },
+    {
+      "name": "mixed stock/caps 30 tick 5",
+      "cu": 6510,
+      "advance": 5203,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 30 tick 6",
+      "cu": 151692,
+      "advance": 5184,
+      "refresh": 146069
+    },
+    {
+      "name": "mixed stock/caps 30 tick 7",
+      "cu": 6279,
+      "advance": 5009,
+      "refresh": 831
+    },
+    {
+      "name": "mixed stock/caps 30 tick 8",
+      "cu": 151526,
+      "advance": 4990,
+      "refresh": 146097
+    },
+    {
+      "name": "mixed stock/caps 31",
+      "cu": 159901,
+      "advance": 103,
+      "refresh": 159357
+    },
+    {
+      "name": "mixed stock/caps 31 tick 1",
+      "cu": 158079,
+      "advance": 5456,
+      "refresh": 152184
+    },
+    {
+      "name": "mixed stock/caps 31 tick 2",
+      "cu": 149592,
+      "advance": 5769,
+      "refresh": 143384
+    },
+    {
+      "name": "mixed stock/caps 31 tick 3",
+      "cu": 6964,
+      "advance": 5681,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 31 tick 4",
+      "cu": 149479,
+      "advance": 5672,
+      "refresh": 143368
+    },
+    {
+      "name": "mixed stock/caps 31 tick 5",
+      "cu": 6855,
+      "advance": 5584,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 31 tick 6",
+      "cu": 149335,
+      "advance": 5565,
+      "refresh": 143331
+    },
+    {
+      "name": "mixed stock/caps 31 tick 7",
+      "cu": 9670,
+      "advance": 5390,
+      "refresh": 3841
+    },
+    {
+      "name": "mixed stock/caps 31 tick 8",
+      "cu": 9670,
+      "advance": 5390,
+      "refresh": 3841
+    },
+    {
+      "name": "mixed stock/caps 32",
+      "cu": 162789,
+      "advance": 103,
+      "refresh": 162245
+    },
+    {
+      "name": "mixed stock/caps 32 tick 1",
+      "cu": 158972,
+      "advance": 5280,
+      "refresh": 153253
+    },
+    {
+      "name": "mixed stock/caps 32 tick 2",
+      "cu": 150494,
+      "advance": 5585,
+      "refresh": 144470
+    },
+    {
+      "name": "mixed stock/caps 32 tick 3",
+      "cu": 6903,
+      "advance": 5594,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 32 tick 4",
+      "cu": 150502,
+      "advance": 5594,
+      "refresh": 144469
+    },
+    {
+      "name": "mixed stock/caps 32 tick 5",
+      "cu": 6906,
+      "advance": 5594,
+      "refresh": 873
+    },
+    {
+      "name": "mixed stock/caps 32 tick 6",
+      "cu": 150466,
+      "advance": 5575,
+      "refresh": 144452
+    },
+    {
+      "name": "mixed stock/caps 32 tick 7",
+      "cu": 6792,
+      "advance": 5497,
+      "refresh": 856
+    },
+    {
+      "name": "mixed stock/caps 32 tick 8",
+      "cu": 150355,
+      "advance": 5469,
+      "refresh": 144447
+    },
+    {
+      "name": "mixed stock/caps 33",
+      "cu": 162864,
+      "advance": 103,
+      "refresh": 162320
+    },
+    {
+      "name": "mixed stock/caps 33 tick 1",
+      "cu": 158005,
+      "advance": 5228,
+      "refresh": 152338
+    },
+    {
+      "name": "mixed stock/caps 33 tick 2",
+      "cu": 149511,
+      "advance": 5517,
+      "refresh": 143555
+    },
+    {
+      "name": "mixed stock/caps 33 tick 3",
+      "cu": 159072,
+      "advance": 5515,
+      "refresh": 153118
+    },
+    {
+      "name": "mixed stock/caps 33 tick 4",
+      "cu": 161234,
+      "advance": 5509,
+      "refresh": 155286
+    },
+    {
+      "name": "mixed stock/caps 33 tick 5",
+      "cu": 6833,
+      "advance": 5526,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 33 tick 6",
+      "cu": 162000,
+      "advance": 5505,
+      "refresh": 156056
+    },
+    {
+      "name": "mixed stock/caps 33 tick 7",
+      "cu": 158180,
+      "advance": 5422,
+      "refresh": 152319
+    },
+    {
+      "name": "mixed stock/caps 33 tick 8",
+      "cu": 149343,
+      "advance": 5402,
+      "refresh": 143502
+    },
+    {
+      "name": "mixed stock/caps 34",
+      "cu": 165763,
+      "advance": 103,
+      "refresh": 165219
+    },
+    {
+      "name": "mixed stock/caps 34 tick 1",
+      "cu": 160834,
+      "advance": 5136,
+      "refresh": 155259
+    },
+    {
+      "name": "mixed stock/caps 34 tick 2",
+      "cu": 152234,
+      "advance": 5449,
+      "refresh": 146346
+    },
+    {
+      "name": "mixed stock/caps 34 tick 3",
+      "cu": 6750,
+      "advance": 5449,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 34 tick 4",
+      "cu": 152206,
+      "advance": 5440,
+      "refresh": 146327
+    },
+    {
+      "name": "mixed stock/caps 34 tick 5",
+      "cu": 6639,
+      "advance": 5352,
+      "refresh": 848
+    },
+    {
+      "name": "mixed stock/caps 34 tick 6",
+      "cu": 152062,
+      "advance": 5333,
+      "refresh": 146290
+    },
+    {
+      "name": "mixed stock/caps 34 tick 7",
+      "cu": 9324,
+      "advance": 5159,
+      "refresh": 3726
+    },
+    {
+      "name": "mixed stock/caps 34 tick 8",
+      "cu": 9325,
+      "advance": 5159,
+      "refresh": 3727
+    },
+    {
+      "name": "mixed stock/caps 35",
+      "cu": 157270,
+      "advance": 103,
+      "refresh": 156726
+    },
+    {
+      "name": "mixed stock/caps 35 tick 1",
+      "cu": 155905,
+      "advance": 4990,
+      "refresh": 150476
+    },
+    {
+      "name": "mixed stock/caps 35 tick 2",
+      "cu": 147263,
+      "advance": 5254,
+      "refresh": 141570
+    },
+    {
+      "name": "mixed stock/caps 35 tick 3",
+      "cu": 6572,
+      "advance": 5263,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 35 tick 4",
+      "cu": 147248,
+      "advance": 5246,
+      "refresh": 141563
+    },
+    {
+      "name": "mixed stock/caps 35 tick 5",
+      "cu": 6565,
+      "advance": 5263,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 35 tick 6",
+      "cu": 147210,
+      "advance": 5244,
+      "refresh": 141527
+    },
+    {
+      "name": "mixed stock/caps 35 tick 7",
+      "cu": 6335,
+      "advance": 5070,
+      "refresh": 826
+    },
+    {
+      "name": "mixed stock/caps 35 tick 8",
+      "cu": 147011,
+      "advance": 5060,
+      "refresh": 141512
+    },
+    {
+      "name": "mixed stock/caps 36",
+      "cu": 163441,
+      "advance": 103,
+      "refresh": 162897
+    },
+    {
+      "name": "mixed stock/caps 36 tick 1",
+      "cu": 159871,
+      "advance": 5070,
+      "refresh": 154362
+    },
+    {
+      "name": "mixed stock/caps 36 tick 2",
+      "cu": 151300,
+      "advance": 5326,
+      "refresh": 145535
+    },
+    {
+      "name": "mixed stock/caps 36 tick 3",
+      "cu": 6636,
+      "advance": 5335,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 36 tick 4",
+      "cu": 151297,
+      "advance": 5327,
+      "refresh": 145531
+    },
+    {
+      "name": "mixed stock/caps 36 tick 5",
+      "cu": 6637,
+      "advance": 5335,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 36 tick 6",
+      "cu": 151289,
+      "advance": 5326,
+      "refresh": 145524
+    },
+    {
+      "name": "mixed stock/caps 36 tick 7",
+      "cu": 6628,
+      "advance": 5335,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 36 tick 8",
+      "cu": 151267,
+      "advance": 5306,
+      "refresh": 145522
+    },
+    {
+      "name": "mixed stock/caps 37",
+      "cu": 170284,
+      "advance": 103,
+      "refresh": 169740
+    },
+    {
+      "name": "mixed stock/caps 37 tick 1",
+      "cu": 164050,
+      "advance": 5224,
+      "refresh": 158387
+    },
+    {
+      "name": "mixed stock/caps 37 tick 2",
+      "cu": 155666,
+      "advance": 5513,
+      "refresh": 149714
+    },
+    {
+      "name": "mixed stock/caps 37 tick 3",
+      "cu": 6708,
+      "advance": 5425,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 37 tick 4",
+      "cu": 155553,
+      "advance": 5416,
+      "refresh": 149698
+    },
+    {
+      "name": "mixed stock/caps 37 tick 5",
+      "cu": 6599,
+      "advance": 5328,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 37 tick 6",
+      "cu": 155409,
+      "advance": 5309,
+      "refresh": 149661
+    },
+    {
+      "name": "mixed stock/caps 37 tick 7",
+      "cu": 9308,
+      "advance": 5135,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 37 tick 8",
+      "cu": 9308,
+      "advance": 5135,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 38",
+      "cu": 154726,
+      "advance": 103,
+      "refresh": 154182
+    },
+    {
+      "name": "mixed stock/caps 38 tick 1",
+      "cu": 152655,
+      "advance": 4728,
+      "refresh": 147488
+    },
+    {
+      "name": "mixed stock/caps 38 tick 2",
+      "cu": 143891,
+      "advance": 4962,
+      "refresh": 138490
+    },
+    {
+      "name": "mixed stock/caps 38 tick 3",
+      "cu": 6374,
+      "advance": 5068,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 38 tick 4",
+      "cu": 143986,
+      "advance": 5059,
+      "refresh": 138488
+    },
+    {
+      "name": "mixed stock/caps 38 tick 5",
+      "cu": 6374,
+      "advance": 5068,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 38 tick 6",
+      "cu": 143979,
+      "advance": 5059,
+      "refresh": 138481
+    },
+    {
+      "name": "mixed stock/caps 38 tick 7",
+      "cu": 6366,
+      "advance": 5068,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 38 tick 8",
+      "cu": 143957,
+      "advance": 5039,
+      "refresh": 138479
+    },
+    {
+      "name": "mixed stock/caps 39",
+      "cu": 166889,
+      "advance": 103,
+      "refresh": 166345
+    },
+    {
+      "name": "mixed stock/caps 39 tick 1",
+      "cu": 162020,
+      "advance": 5053,
+      "refresh": 156528
+    },
+    {
+      "name": "mixed stock/caps 39 tick 2",
+      "cu": 153155,
+      "advance": 5325,
+      "refresh": 147391
+    },
+    {
+      "name": "mixed stock/caps 39 tick 3",
+      "cu": 6640,
+      "advance": 5334,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 39 tick 4",
+      "cu": 153154,
+      "advance": 5325,
+      "refresh": 147390
+    },
+    {
+      "name": "mixed stock/caps 39 tick 5",
+      "cu": 6641,
+      "advance": 5334,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 39 tick 6",
+      "cu": 153109,
+      "advance": 5315,
+      "refresh": 147355
+    },
+    {
+      "name": "mixed stock/caps 39 tick 7",
+      "cu": 6410,
+      "advance": 5140,
+      "refresh": 831
+    },
+    {
+      "name": "mixed stock/caps 39 tick 8",
+      "cu": 152943,
+      "advance": 5121,
+      "refresh": 147383
+    },
+    {
+      "name": "mixed stock/caps 40",
+      "cu": 159865,
+      "advance": 103,
+      "refresh": 159321
+    },
+    {
+      "name": "mixed stock/caps 40 tick 1",
+      "cu": 155838,
+      "advance": 5329,
+      "refresh": 150070
+    },
+    {
+      "name": "mixed stock/caps 40 tick 2",
+      "cu": 147371,
+      "advance": 5641,
+      "refresh": 141291
+    },
+    {
+      "name": "mixed stock/caps 40 tick 3",
+      "cu": 6836,
+      "advance": 5553,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 40 tick 4",
+      "cu": 147258,
+      "advance": 5544,
+      "refresh": 141275
+    },
+    {
+      "name": "mixed stock/caps 40 tick 5",
+      "cu": 6727,
+      "advance": 5456,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 40 tick 6",
+      "cu": 147114,
+      "advance": 5437,
+      "refresh": 141238
+    },
+    {
+      "name": "mixed stock/caps 40 tick 7",
+      "cu": 9496,
+      "advance": 5262,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 40 tick 8",
+      "cu": 9496,
+      "advance": 5262,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 41",
+      "cu": 165653,
+      "advance": 103,
+      "refresh": 165109
+    },
+    {
+      "name": "mixed stock/caps 41 tick 1",
+      "cu": 162673,
+      "advance": 5340,
+      "refresh": 156894
+    },
+    {
+      "name": "mixed stock/caps 41 tick 2",
+      "cu": 166322,
+      "advance": 5632,
+      "refresh": 160251
+    },
+    {
+      "name": "mixed stock/caps 41 tick 3",
+      "cu": 162973,
+      "advance": 5645,
+      "refresh": 156889
+    },
+    {
+      "name": "mixed stock/caps 41 tick 4",
+      "cu": 166330,
+      "advance": 5641,
+      "refresh": 160250
+    },
+    {
+      "name": "mixed stock/caps 41 tick 5",
+      "cu": 162976,
+      "advance": 5645,
+      "refresh": 156892
+    },
+    {
+      "name": "mixed stock/caps 41 tick 6",
+      "cu": 166294,
+      "advance": 5622,
+      "refresh": 160233
+    },
+    {
+      "name": "mixed stock/caps 41 tick 7",
+      "cu": 162862,
+      "advance": 5548,
+      "refresh": 156875
+    },
+    {
+      "name": "mixed stock/caps 41 tick 8",
+      "cu": 166183,
+      "advance": 5516,
+      "refresh": 160228
+    },
+    {
+      "name": "mixed stock/caps 42",
+      "cu": 169560,
+      "advance": 103,
+      "refresh": 169016
+    },
+    {
+      "name": "mixed stock/caps 42 tick 1",
+      "cu": 162383,
+      "advance": 5282,
+      "refresh": 156662
+    },
+    {
+      "name": "mixed stock/caps 42 tick 2",
+      "cu": 153971,
+      "advance": 5571,
+      "refresh": 147961
+    },
+    {
+      "name": "mixed stock/caps 42 tick 3",
+      "cu": 163962,
+      "advance": 5569,
+      "refresh": 157954
+    },
+    {
+      "name": "mixed stock/caps 42 tick 4",
+      "cu": 165625,
+      "advance": 5563,
+      "refresh": 159623
+    },
+    {
+      "name": "mixed stock/caps 42 tick 5",
+      "cu": 6887,
+      "advance": 5580,
+      "refresh": 868
+    },
+    {
+      "name": "mixed stock/caps 42 tick 6",
+      "cu": 166903,
+      "advance": 5559,
+      "refresh": 160905
+    },
+    {
+      "name": "mixed stock/caps 42 tick 7",
+      "cu": 162558,
+      "advance": 5476,
+      "refresh": 156643
+    },
+    {
+      "name": "mixed stock/caps 42 tick 8",
+      "cu": 153803,
+      "advance": 5456,
+      "refresh": 147908
+    },
+    {
+      "name": "mixed stock/caps 43",
+      "cu": 162279,
+      "advance": 103,
+      "refresh": 161735
+    },
+    {
+      "name": "mixed stock/caps 43 tick 1",
+      "cu": 158780,
+      "advance": 5348,
+      "refresh": 152993
+    },
+    {
+      "name": "mixed stock/caps 43 tick 2",
+      "cu": 150206,
+      "advance": 5648,
+      "refresh": 144119
+    },
+    {
+      "name": "mixed stock/caps 43 tick 3",
+      "cu": 6949,
+      "advance": 5648,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 43 tick 4",
+      "cu": 150178,
+      "advance": 5639,
+      "refresh": 144100
+    },
+    {
+      "name": "mixed stock/caps 43 tick 5",
+      "cu": 6838,
+      "advance": 5551,
+      "refresh": 848
+    },
+    {
+      "name": "mixed stock/caps 43 tick 6",
+      "cu": 150034,
+      "advance": 5532,
+      "refresh": 144063
+    },
+    {
+      "name": "mixed stock/caps 43 tick 7",
+      "cu": 9592,
+      "advance": 5358,
+      "refresh": 3795
+    },
+    {
+      "name": "mixed stock/caps 43 tick 8",
+      "cu": 9593,
+      "advance": 5358,
+      "refresh": 3796
+    },
+    {
+      "name": "mixed stock/caps 44",
+      "cu": 156519,
+      "advance": 103,
+      "refresh": 155975
+    },
+    {
+      "name": "mixed stock/caps 44 tick 1",
+      "cu": 155713,
+      "advance": 4937,
+      "refresh": 150337
+    },
+    {
+      "name": "mixed stock/caps 44 tick 2",
+      "cu": 147001,
+      "advance": 5194,
+      "refresh": 141368
+    },
+    {
+      "name": "mixed stock/caps 44 tick 3",
+      "cu": 6512,
+      "advance": 5203,
+      "refresh": 870
+    },
+    {
+      "name": "mixed stock/caps 44 tick 4",
+      "cu": 146986,
+      "advance": 5186,
+      "refresh": 141361
+    },
+    {
+      "name": "mixed stock/caps 44 tick 5",
+      "cu": 6505,
+      "advance": 5203,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 44 tick 6",
+      "cu": 146948,
+      "advance": 5184,
+      "refresh": 141325
+    },
+    {
+      "name": "mixed stock/caps 44 tick 7",
+      "cu": 6275,
+      "advance": 5010,
+      "refresh": 826
+    },
+    {
+      "name": "mixed stock/caps 44 tick 8",
+      "cu": 146749,
+      "advance": 5000,
+      "refresh": 141310
+    },
+    {
+      "name": "mixed stock/caps 45",
+      "cu": 162227,
+      "advance": 103,
+      "refresh": 161683
+    },
+    {
+      "name": "mixed stock/caps 45 tick 1",
+      "cu": 158705,
+      "advance": 4956,
+      "refresh": 153310
+    },
+    {
+      "name": "mixed stock/caps 45 tick 2",
+      "cu": 150062,
+      "advance": 5197,
+      "refresh": 144426
+    },
+    {
+      "name": "mixed stock/caps 45 tick 3",
+      "cu": 6507,
+      "advance": 5206,
+      "refresh": 862
+    },
+    {
+      "name": "mixed stock/caps 45 tick 4",
+      "cu": 150059,
+      "advance": 5198,
+      "refresh": 144422
+    },
+    {
+      "name": "mixed stock/caps 45 tick 5",
+      "cu": 6508,
+      "advance": 5206,
+      "refresh": 863
+    },
+    {
+      "name": "mixed stock/caps 45 tick 6",
+      "cu": 150051,
+      "advance": 5197,
+      "refresh": 144415
+    },
+    {
+      "name": "mixed stock/caps 45 tick 7",
+      "cu": 6499,
+      "advance": 5206,
+      "refresh": 854
+    },
+    {
+      "name": "mixed stock/caps 45 tick 8",
+      "cu": 150029,
+      "advance": 5177,
+      "refresh": 144413
+    },
+    {
+      "name": "mixed stock/caps 46",
+      "cu": 174221,
+      "advance": 103,
+      "refresh": 173677
+    },
+    {
+      "name": "mixed stock/caps 46 tick 1",
+      "cu": 165516,
+      "advance": 5209,
+      "refresh": 159868
+    },
+    {
+      "name": "mixed stock/caps 46 tick 2",
+      "cu": 157140,
+      "advance": 5506,
+      "refresh": 151195
+    },
+    {
+      "name": "mixed stock/caps 46 tick 3",
+      "cu": 6701,
+      "advance": 5418,
+      "refresh": 844
+    },
+    {
+      "name": "mixed stock/caps 46 tick 4",
+      "cu": 157027,
+      "advance": 5409,
+      "refresh": 151179
+    },
+    {
+      "name": "mixed stock/caps 46 tick 5",
+      "cu": 6592,
+      "advance": 5321,
+      "refresh": 832
+    },
+    {
+      "name": "mixed stock/caps 46 tick 6",
+      "cu": 156883,
+      "advance": 5302,
+      "refresh": 151142
+    },
+    {
+      "name": "mixed stock/caps 46 tick 7",
+      "cu": 9301,
+      "advance": 5128,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 46 tick 8",
+      "cu": 9301,
+      "advance": 5128,
+      "refresh": 3734
+    },
+    {
+      "name": "mixed stock/caps 47",
+      "cu": 156331,
+      "advance": 103,
+      "refresh": 155787
+    },
+    {
+      "name": "mixed stock/caps 47 tick 1",
+      "cu": 152569,
+      "advance": 4706,
+      "refresh": 147424
+    },
+    {
+      "name": "mixed stock/caps 47 tick 2",
+      "cu": 143868,
+      "advance": 4963,
+      "refresh": 138466
+    },
+    {
+      "name": "mixed stock/caps 47 tick 3",
+      "cu": 6375,
+      "advance": 5069,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 47 tick 4",
+      "cu": 143963,
+      "advance": 5060,
+      "refresh": 138464
+    },
+    {
+      "name": "mixed stock/caps 47 tick 5",
+      "cu": 6375,
+      "advance": 5069,
+      "refresh": 867
+    },
+    {
+      "name": "mixed stock/caps 47 tick 6",
+      "cu": 143956,
+      "advance": 5060,
+      "refresh": 138457
+    },
+    {
+      "name": "mixed stock/caps 47 tick 7",
+      "cu": 6367,
+      "advance": 5069,
+      "refresh": 859
+    },
+    {
+      "name": "mixed stock/caps 47 tick 8",
+      "cu": 143934,
+      "advance": 5040,
+      "refresh": 138455
+    }
+  ]
+}

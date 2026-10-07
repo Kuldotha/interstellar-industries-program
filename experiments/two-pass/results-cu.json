@@ -1,0 +1,57 @@
+[
+  {
+    "name": "known local bottleneck",
+    "baseline": {
+      "cu": 43259,
+      "stages": "2"
+    },
+    "twoPass": {
+      "cu": 30873,
+      "stages": "1"
+    }
+  },
+  {
+    "name": "full web 100 per recipe",
+    "baseline": {
+      "cu": 119656,
+      "stages": "28"
+    },
+    "twoPass": {
+      "cu": 200000,
+      "error": "SBF execution failed: Err(ProgramFailedToComplete)"
+    }
+  },
+  {
+    "name": "full web with carbon strands stock",
+    "baseline": {
+      "cu": 188174,
+      "stages": "30"
+    },
+    "twoPass": {
+      "cu": 200000,
+      "error": "SBF execution failed: Err(ProgramFailedToComplete)"
+    }
+  },
+  {
+    "name": "fixture 3",
+    "baseline": {
+      "cu": 102919,
+      "stages": "30"
+    },
+    "twoPass": {
+      "cu": 122844,
+      "stages": "4"
+    }
+  },
+  {
+    "name": "fixture 105",
+    "baseline": {
+      "cu": 194237,
+      "stages": "38"
+    },
+    "twoPass": {
+      "cu": 150378,
+      "stages": "4"
+    }
+  }
+]

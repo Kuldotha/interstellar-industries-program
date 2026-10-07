@@ -1,0 +1,16 @@
+{
+  "program": "4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd",
+  "bytes": 333352,
+  "startedAt": "2026-10-03T11:49:10.684Z",
+  "balanceBefore": 1751285560,
+  "previousAllocation": 330256,
+  "additionalRent": 52019200,
+  "extensionBytes": 10240,
+  "extension": "{\n  \"programId\": \"4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd\",\n  \"additionalBytes\": 10240\n}\n",
+  "deploy": "{\n  \"programId\": \"4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd\",\n  \"signature\": \"uVzQacSgTtWdiPHeuyJG2bMA3DAuiw3LQf7BsnNi8DfviHzPoqUBaetyuCJQbixa4iEebS2HaEP2R6jM3g3Ljvc\"\n}\n",
+  "sha256": "241d1f3c1b898d8e4e2c139fd06d926ac507fb2976a7898d180cd9955e45b400",
+  "verified": true,
+  "bufferRemaining": 0,
+  "balanceAfter": 1697596360,
+  "cost": 53689200
+}

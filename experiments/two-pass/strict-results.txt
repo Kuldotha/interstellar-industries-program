@@ -1,0 +1,43 @@
+
+local bottleneck
+downward MRE changes (resource, recipe, before, after):
+17 77 10 9
+recipe capacity final_mre actual_production
+30 10 10 10
+31 1 1 1
+32 5 1 1
+51 10 10 10
+77 10 9 9
+resource 21 balance 1
+resource 52 balance 1
+resource 65 balance 9
+Verified: every resource visited once down and once up; MRE unchanged throughout upward pass
+
+shared branches
+downward MRE changes (resource, recipe, before, after):
+21 33 1 0.25
+21 48 1 0.75
+50 43 1 0.375
+50 58 1 0.375
+55 58 0.375 0.25
+recipe capacity final_mre actual_production
+8 1 1 1
+23 1 1 1
+24 1 1 1
+30 1 1 1
+31 1 1 1
+32 1 1 1
+41 1 1 1
+42 1 1 1
+33 1 0.25 0.25
+43 1 0.375 0.375
+48 3 0.75 0.75
+58 1 0.25 0.25
+resource 8 balance 0.375
+resource 10 balance 0.625
+resource 22 balance 0.25
+resource 46 balance 0.25
+resource 50 balance 0.125
+resource 69 balance 0.75
+Confirmed failure: Composite Fabricator can increase by 0.125 without reducing any other output; baseline produces 0.5
+Verified: every resource visited once down and once up; MRE unchanged throughout upward pass

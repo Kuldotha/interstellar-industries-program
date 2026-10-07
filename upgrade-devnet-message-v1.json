@@ -1,0 +1,16 @@
+{
+  "program": "4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd",
+  "bytes": 336200,
+  "startedAt": "2026-10-03T12:35:06.564Z",
+  "balanceBefore": 1692567584,
+  "previousAllocation": 340496,
+  "additionalRent": 0,
+  "topupLamports": 21166616,
+  "topup": "{\n  \"signature\": \"511rV4pPL2MwXZAkqLyyefVPfLTAbxxqGuZbdpQ9DoxqTsNHqusNZkZFefxdPjXNF6SE4tkFcuHntdwtdAxPnY3q\"\n}\n",
+  "deploy": "{\n  \"programId\": \"4yysd21qfEAwjt19XiMdYL1GrRytMaBQxUZdiVx1Z5zd\",\n  \"signature\": \"5r5v8fSCdNAU8CLnnWyAS9pAXNfc6Cw7q6EHWLRsmxh4XAmHsd5emVq5kvYtywAHVsXAoros96AbA4TyUHPogKrm\"\n}\n",
+  "sha256": "5cb65567a77a81585dcc677f8474ab52d1ba0a80a8bd66652c3833540901afe3",
+  "verified": true,
+  "bufferRemaining": 0,
+  "balanceAfter": 1712054200,
+  "cost": 1680000
+}

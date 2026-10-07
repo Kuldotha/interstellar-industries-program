@@ -1,0 +1,47 @@
+{
+  "revision": "85f77a6ac12ea26a65b5e950a0f463e898399939",
+  "backend": "pinocchio",
+  "regressionCases": 1388,
+  "wasmSbfExactMatch": true,
+  "dispatchValidationCases": 9,
+  "accountBytes": 6376,
+  "cases": [
+    {
+      "name": "baseline maximum",
+      "beforeCu": 152129,
+      "afterCu": 152159,
+      "addedCu": 30
+    },
+    {
+      "name": "stock maximum",
+      "beforeCu": 131958,
+      "afterCu": 132199,
+      "addedCu": 241
+    },
+    {
+      "name": "electronics stock example",
+      "beforeCu": 43278,
+      "afterCu": 43519,
+      "addedCu": 241
+    },
+    {
+      "name": "same stock mask cached",
+      "beforeCu": 34700,
+      "afterCu": 34735,
+      "addedCu": 35
+    },
+    {
+      "name": "most expensive baseline build",
+      "beforeCu": 93360,
+      "afterCu": 93390,
+      "addedCu": 30
+    },
+    {
+      "name": "stock maximum with cached metadata",
+      "beforeCu": 122721,
+      "afterCu": 122756,
+      "addedCu": 35
+    }
+  ],
+  "solSpent": 0
+}

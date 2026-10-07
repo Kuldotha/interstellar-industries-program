@@ -1,0 +1,16 @@
+node_modules/
+dist/
+**/target/
+
+browser-test-wallet.json
+
+.env
+.env.*
+!.env.example
+.DS_Store
+.wrangler/
+*-keypair.json
+*test-wallet*.json
+*.blend
+*.blend[0-9]
+__pycache__/

@@ -1,0 +1,51 @@
+{
+  "budgetCu": 200000,
+  "cases": [
+    {
+      "name": "baseline maximum",
+      "beforeCu": 194237,
+      "afterCu": 152129,
+      "savedCu": 42108
+    },
+    {
+      "name": "stock maximum",
+      "beforeCu": 188174,
+      "afterCu": 131958,
+      "savedCu": 56216
+    },
+    {
+      "name": "electronics stock example",
+      "beforeCu": 48547,
+      "afterCu": 43278,
+      "savedCu": 5269
+    },
+    {
+      "name": "same stock mask cached",
+      "beforeCu": 37184,
+      "afterCu": 34700,
+      "savedCu": 2484
+    },
+    {
+      "name": "most expensive baseline build",
+      "beforeCu": 104668,
+      "afterCu": 93360,
+      "savedCu": 11308
+    },
+    {
+      "name": "stock maximum with cached metadata",
+      "beforeCu": 175802,
+      "afterCu": 122721,
+      "savedCu": 53081
+    }
+  ],
+  "equality": {
+    "cases": 25001,
+    "exactGameplayStateMatch": true,
+    "legacyCacheMigration": true,
+    "comparedWords": 531,
+    "accountWords": 797
+  },
+  "existingTests": 1388,
+  "accountBytes": 6376,
+  "solSpent": 0
+}
