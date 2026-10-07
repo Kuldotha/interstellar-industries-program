@@ -176,7 +176,7 @@ impl Planet {
             }
         }
     }
-    pub fn field_parent(&self,tile:usize)->Option<usize>{let item=self.tiles.get(tile)?;colony_buildings::farm_kind(item.kind.checked_sub(1)?)?;Some(neighbor(TOPOLOGY,tile,item.facing as usize))}
+    pub fn field_parent(&self,tile:usize)->Option<usize>{let item=self.tiles.get(tile)?;colony_buildings::attachment_parent(item.kind.checked_sub(1)?)?;Some(neighbor(TOPOLOGY,tile,item.facing as usize))}
     pub fn fields(&self,tile:usize)->u64{(0..6).filter(|&side|{let n=neighbor(TOPOLOGY,tile,side);n<TILES&&self.field_parent(n)==Some(tile)}).count() as u64}
     fn production(&mut self, state: &mut [u64; WORDS], kind: u8, add: bool,tile:usize) {
         if let Some(r) = recipe(kind) {
@@ -192,8 +192,9 @@ impl Planet {
             let parent=self.field_parent(tile).unwrap();let count=self.fields(parent);let r=recipe(farm).unwrap();
             if self.tiles[parent].paused==0{if add{state[r]+=count*Q/3-(count-1)*Q/3;}else{state[r]-=count*Q/3-(count-1)*Q/3;}}
         }
-        if add {self.clock.workers+=workers(kind);self.needs.power_demand+=colony_buildings::power_demand(kind);if kind==10{self.needs.generators+=1;}}
-        else {self.clock.workers-=workers(kind);self.needs.power_demand-=colony_buildings::power_demand(kind);if kind==10{self.needs.generators-=1;}}
+        let workforce=if kind==10{workers(kind)+self.fields(tile)*workers(colony_buildings::GENERATOR_MODULE)}else if kind==colony_buildings::GENERATOR_MODULE&&self.tiles[self.field_parent(tile).unwrap()].paused!=0{0}else{workers(kind)};
+        if add {self.clock.workers+=workforce;self.needs.power_demand+=colony_buildings::power_demand(kind);if kind==10{self.needs.generators+=1+self.fields(tile);}if kind==colony_buildings::GENERATOR_MODULE&&self.tiles[self.field_parent(tile).unwrap()].paused==0{self.needs.generators+=1;}}
+        else {self.clock.workers-=workforce;self.needs.power_demand-=colony_buildings::power_demand(kind);if kind==10{self.needs.generators-=1+self.fields(tile);}if kind==colony_buildings::GENERATOR_MODULE&&self.tiles[self.field_parent(tile).unwrap()].paused==0{self.needs.generators-=1;}}
         self.clock.dirty = 1;
     }
     fn utility(&mut self, t: &[u8], tile: usize, kind:u8, add: bool) {
@@ -248,7 +249,7 @@ impl Planet {
         {
             return Err(ProgramError::Custom(104));
         }
-        if let Some(farm)=colony_buildings::farm_kind(kind){if self.tiles[adjacent].kind!=farm+1||self.fields(adjacent)>=3{return Err(ProgramError::Custom(108));}}
+        if let Some(farm)=colony_buildings::attachment_parent(kind){if self.tiles[adjacent].kind!=farm+1||self.fields(adjacent)>=3{return Err(ProgramError::Custom(108));}}
         let price = cost(kind);
         let balance = &mut state[stock_index(CONCRETE)];
         if *balance < price * Q {
@@ -289,7 +290,7 @@ impl Planet {
             return Err(ProgramError::Custom(106));
         }
         let kind = item.kind - 1;
-        if colony_buildings::field_kind(kind).is_some(){for side in 0..6{let n=neighbor(t,tile,side);if n<TILES&&self.field_parent(n)==Some(tile){self.demolish(state,t,n)?;}}}
+        if colony_buildings::attachment_kind(kind).is_some(){for side in 0..6{let n=neighbor(t,tile,side);if n<TILES&&self.field_parent(n)==Some(tile){self.demolish(state,t,n)?;}}}
         if colony_buildings::utility(kind) && item.paused == 0 {
             self.utility(t, tile, kind, false);
         }
@@ -386,6 +387,24 @@ mod tests {
         let id=plots[3];let face=(0..6).find(|&j|neighbor(TOPOLOGY,id,j)==farm).unwrap();assert!(p.build(&mut s,TOPOLOGY,id,12,face).is_err());
         p.pause(&mut s,TOPOLOGY,farm,1).unwrap();assert_eq!(s[8],0);p.demolish(&mut s,TOPOLOGY,plots[0]).unwrap();assert_eq!(s[8],0);
         p.pause(&mut s,TOPOLOGY,farm,0).unwrap();assert_eq!(s[8],2*Q/3);p.demolish(&mut s,TOPOLOGY,farm).unwrap();assert_eq!(s[8],0);assert_eq!(p.clock.workers,0);assert_eq!(p.fields(farm),0);assert_eq!(s[stock_index(CONCRETE)],100*Q);
+    }
+    #[test]
+    fn generator_modules_add_workers_and_follow_parent_lifecycle(){
+        let(mut p,mut s)=world();p.peak=100;s[stock_index(CONCRETE)]=100*Q;
+        let main=(0..TILES).find(|&id|planet_generation_core::tile(TOPOLOGY,id,&p.permutation,p.seed)[1]>0&&(0..6).filter(|&side|{let n=neighbor(TOPOLOGY,id,side);n<TILES&&planet_generation_core::tile(TOPOLOGY,n,&p.permutation,p.seed)[1]>0}).count()>=4).unwrap();
+        let plots:Vec<_>=(0..6).map(|side|neighbor(TOPOLOGY,main,side)).filter(|&n|n<TILES&&planet_generation_core::tile(TOPOLOGY,n,&p.permutation,p.seed)[1]>0).collect();
+        let facing=|id|(0..6).find(|&j|neighbor(TOPOLOGY,id,j)==main).unwrap();
+        assert!(p.build(&mut s,TOPOLOGY,plots[0],15,facing(plots[0])).is_err());
+        p.build(&mut s,TOPOLOGY,main,10,0).unwrap();
+        for(i,&id)in plots.iter().take(3).enumerate(){p.build(&mut s,TOPOLOGY,id,15,facing(id)).unwrap();assert_eq!(p.needs.generators,i as u64+2);assert_eq!(p.clock.workers,15+5*i as u64);}
+        assert!(p.build(&mut s,TOPOLOGY,plots[3],15,facing(plots[3])).is_err());
+        assert!(p.pause(&mut s,TOPOLOGY,plots[0],1).is_err());
+        p.pause(&mut s,TOPOLOGY,main,1).unwrap();assert_eq!(p.needs.generators,0);assert_eq!(p.clock.workers,0);
+        p.demolish(&mut s,TOPOLOGY,plots[0]).unwrap();assert_eq!(p.needs.generators,0);
+        p.build(&mut s,TOPOLOGY,plots[0],15,facing(plots[0])).unwrap();assert_eq!(p.needs.generators,0);
+        p.pause(&mut s,TOPOLOGY,main,0).unwrap();assert_eq!(p.needs.generators,4);assert_eq!(p.clock.workers,25);
+        p.demolish(&mut s,TOPOLOGY,plots[0]).unwrap();assert_eq!(p.needs.generators,3);assert_eq!(p.clock.workers,20);
+        p.demolish(&mut s,TOPOLOGY,main).unwrap();assert_eq!(p.needs.generators,0);assert_eq!(p.clock.workers,0);assert_eq!(p.fields(main),0);assert_eq!(s[stock_index(CONCRETE)],100*Q);
     }
     #[test]
     fn layout_preserves_account_fields() {

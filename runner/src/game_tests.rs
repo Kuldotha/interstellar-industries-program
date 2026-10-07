@@ -281,11 +281,14 @@ fn game_instructions_and_schedule_cpi() {
     let mut migration=vec![AccountMeta::new_readonly(owner,true)];migration.extend(advance_metas());
     apply(&vm,&mut accounts,instruction(31,migration,&[]),&mut max);
     assert_eq!(world(&accounts,planet).tag,PLANET_TAG);assert_eq!(bytes(&before),bytes(&world(&accounts,planet).tiles));
-    for(farm_kind,field_kind)in [(5,12),(7,13),(9,14)]{
+    for(farm_kind,field_kind)in [(5,12),(7,13),(9,14),(10,15)]{
       let p=world(&accounts,planet);let farm=p.tiles.iter().position(|t|t.kind==farm_kind+1).unwrap();
       let fields:Vec<_>=(0..6).map(|side|neighbor(TOPOLOGY,farm,side)).filter(|&n|n<TILES&&p.tiles[n].kind==0&&planet_generation_core::tile(TOPOLOGY,n,&p.permutation,p.seed)[1]>0).take(3).collect();
       assert!(!fields.is_empty());
+      let workforce=p.clock.workers;let expected_generators=1+fields.len() as u64;
       for field in fields{let side=(0..6).find(|&side|neighbor(TOPOLOGY,field,side)==farm).unwrap();let mut extra=(field as u32).to_le_bytes().to_vec();extra.extend_from_slice(&[field_kind,side as u8]);apply(&vm,&mut accounts,instruction(21,action_metas(owner),&extra),&mut max);}
+      assert_eq!(world(&accounts,planet).clock.workers,workforce+if farm_kind==10{(expected_generators-1)*5}else{0});
+      if farm_kind==10{assert_eq!(world(&accounts,planet).needs.generators,expected_generators);}
       apply(&vm,&mut accounts,instruction(22,action_metas(owner),&(farm as u32).to_le_bytes()),&mut max);
       assert_eq!(world(&accounts,planet).fields(farm),0);
     }
